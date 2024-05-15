@@ -39,7 +39,8 @@ This step will read `renv.lock` file and install required packages to your local
 data
 ├── ...
 ├── raw
-│   └── data.csv
+│   ├── data.csv
+│   └── gbd.csv
 └── ...
 ```
 
