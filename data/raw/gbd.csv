@@ -1,0 +1,1021 @@
+Region,Year,Diagnosis,Definition,Sex,Age,Prevalence,Lower,Upper,Source,Group
+Global,1990,Depression,Depressive disorders,Both,All ages,3.31%,2.96%,3.69%,GBD 1990,Mental Health
+Republic of Indonesia,1990,Depression,Depressive disorders,Both,All ages,2.08%,1.83%,2.35%,GBD 1990,Mental Health
+Global,1991,Depression,Depressive disorders,Both,All ages,3.36%,3.00%,3.75%,GBD 1991,Mental Health
+Republic of Indonesia,1991,Depression,Depressive disorders,Both,All ages,2.09%,1.84%,2.36%,GBD 1991,Mental Health
+Global,1992,Depression,Depressive disorders,Both,All ages,3.41%,3.05%,3.80%,GBD 1992,Mental Health
+Republic of Indonesia,1992,Depression,Depressive disorders,Both,All ages,2.11%,1.86%,2.38%,GBD 1992,Mental Health
+Global,1993,Depression,Depressive disorders,Both,All ages,3.45%,3.09%,3.84%,GBD 1993,Mental Health
+Republic of Indonesia,1993,Depression,Depressive disorders,Both,All ages,2.12%,1.87%,2.39%,GBD 1993,Mental Health
+Global,1994,Depression,Depressive disorders,Both,All ages,3.48%,3.12%,3.87%,GBD 1994,Mental Health
+Republic of Indonesia,1994,Depression,Depressive disorders,Both,All ages,2.14%,1.88%,2.41%,GBD 1994,Mental Health
+Global,1995,Depression,Depressive disorders,Both,All ages,3.50%,3.15%,3.89%,GBD 1995,Mental Health
+Republic of Indonesia,1995,Depression,Depressive disorders,Both,All ages,2.15%,1.90%,2.43%,GBD 1995,Mental Health
+Global,1996,Depression,Depressive disorders,Both,All ages,3.52%,3.17%,3.91%,GBD 1996,Mental Health
+Republic of Indonesia,1996,Depression,Depressive disorders,Both,All ages,2.17%,1.92%,2.46%,GBD 1996,Mental Health
+Global,1997,Depression,Depressive disorders,Both,All ages,3.53%,3.18%,3.93%,GBD 1997,Mental Health
+Republic of Indonesia,1997,Depression,Depressive disorders,Both,All ages,2.20%,1.94%,2.48%,GBD 1997,Mental Health
+Global,1998,Depression,Depressive disorders,Both,All ages,3.54%,3.19%,3.93%,GBD 1998,Mental Health
+Republic of Indonesia,1998,Depression,Depressive disorders,Both,All ages,2.22%,1.95%,2.50%,GBD 1998,Mental Health
+Global,1999,Depression,Depressive disorders,Both,All ages,3.55%,3.20%,3.94%,GBD 1999,Mental Health
+Republic of Indonesia,1999,Depression,Depressive disorders,Both,All ages,2.24%,1.98%,2.53%,GBD 1999,Mental Health
+Global,2000,Depression,Depressive disorders,Both,All ages,3.56%,3.22%,3.95%,GBD 2000,Mental Health
+Republic of Indonesia,2000,Depression,Depressive disorders,Both,All ages,2.26%,1.99%,2.55%,GBD 2000,Mental Health
+Global,2001,Depression,Depressive disorders,Both,All ages,3.59%,3.24%,3.97%,GBD 2001,Mental Health
+Republic of Indonesia,2001,Depression,Depressive disorders,Both,All ages,2.28%,2.01%,2.57%,GBD 2001,Mental Health
+Global,2002,Depression,Depressive disorders,Both,All ages,3.61%,3.26%,4.00%,GBD 2002,Mental Health
+Republic of Indonesia,2002,Depression,Depressive disorders,Both,All ages,2.30%,2.03%,2.59%,GBD 2002,Mental Health
+Global,2003,Depression,Depressive disorders,Both,All ages,3.64%,3.29%,4.03%,GBD 2003,Mental Health
+Republic of Indonesia,2003,Depression,Depressive disorders,Both,All ages,2.32%,2.05%,2.61%,GBD 2003,Mental Health
+Global,2004,Depression,Depressive disorders,Both,All ages,3.67%,3.31%,4.06%,GBD 2004,Mental Health
+Republic of Indonesia,2004,Depression,Depressive disorders,Both,All ages,2.34%,2.06%,2.64%,GBD 2004,Mental Health
+Global,2005,Depression,Depressive disorders,Both,All ages,3.69%,3.33%,4.08%,GBD 2005,Mental Health
+Republic of Indonesia,2005,Depression,Depressive disorders,Both,All ages,2.35%,2.08%,2.66%,GBD 2005,Mental Health
+Global,2006,Depression,Depressive disorders,Both,All ages,3.69%,3.33%,4.08%,GBD 2006,Mental Health
+Republic of Indonesia,2006,Depression,Depressive disorders,Both,All ages,2.36%,2.09%,2.67%,GBD 2006,Mental Health
+Global,2007,Depression,Depressive disorders,Both,All ages,3.66%,3.31%,4.04%,GBD 2007,Mental Health
+Republic of Indonesia,2007,Depression,Depressive disorders,Both,All ages,2.36%,2.09%,2.67%,GBD 2007,Mental Health
+Global,2008,Depression,Depressive disorders,Both,All ages,3.62%,3.29%,3.99%,GBD 2008,Mental Health
+Republic of Indonesia,2008,Depression,Depressive disorders,Both,All ages,2.37%,2.09%,2.67%,GBD 2008,Mental Health
+Global,2009,Depression,Depressive disorders,Both,All ages,3.60%,3.26%,3.96%,GBD 2009,Mental Health
+Republic of Indonesia,2009,Depression,Depressive disorders,Both,All ages,2.37%,2.10%,2.68%,GBD 2009,Mental Health
+Global,2010,Depression,Depressive disorders,Both,All ages,3.59%,3.26%,3.96%,GBD 2010,Mental Health
+Republic of Indonesia,2010,Depression,Depressive disorders,Both,All ages,2.38%,2.11%,2.69%,GBD 2010,Mental Health
+Global,2011,Depression,Depressive disorders,Both,All ages,3.61%,3.27%,3.98%,GBD 2011,Mental Health
+Republic of Indonesia,2011,Depression,Depressive disorders,Both,All ages,2.40%,2.12%,2.71%,GBD 2011,Mental Health
+Global,2012,Depression,Depressive disorders,Both,All ages,3.63%,3.28%,4.00%,GBD 2012,Mental Health
+Republic of Indonesia,2012,Depression,Depressive disorders,Both,All ages,2.43%,2.14%,2.73%,GBD 2012,Mental Health
+Global,2013,Depression,Depressive disorders,Both,All ages,3.65%,3.29%,4.02%,GBD 2013,Mental Health
+Republic of Indonesia,2013,Depression,Depressive disorders,Both,All ages,2.45%,2.17%,2.76%,GBD 2013,Mental Health
+Global,2014,Depression,Depressive disorders,Both,All ages,3.67%,3.31%,4.05%,GBD 2014,Mental Health
+Republic of Indonesia,2014,Depression,Depressive disorders,Both,All ages,2.48%,2.19%,2.79%,GBD 2014,Mental Health
+Global,2015,Depression,Depressive disorders,Both,All ages,3.69%,3.32%,4.08%,GBD 2015,Mental Health
+Republic of Indonesia,2015,Depression,Depressive disorders,Both,All ages,2.50%,2.21%,2.82%,GBD 2015,Mental Health
+Global,2016,Depression,Depressive disorders,Both,All ages,3.70%,3.34%,4.10%,GBD 2016,Mental Health
+Republic of Indonesia,2016,Depression,Depressive disorders,Both,All ages,2.52%,2.22%,2.84%,GBD 2016,Mental Health
+Global,2017,Depression,Depressive disorders,Both,All ages,3.72%,3.36%,4.12%,GBD 2017,Mental Health
+Republic of Indonesia,2017,Depression,Depressive disorders,Both,All ages,2.54%,2.24%,2.86%,GBD 2017,Mental Health
+Global,2018,Depression,Depressive disorders,Both,All ages,3.74%,3.36%,4.15%,GBD 2018,Mental Health
+Republic of Indonesia,2018,Depression,Depressive disorders,Both,All ages,2.57%,2.28%,2.89%,GBD 2018,Mental Health
+Global,2019,Depression,Depressive disorders,Both,All ages,3.76%,3.38%,4.17%,GBD 2019,Mental Health
+Republic of Indonesia,2019,Depression,Depressive disorders,Both,All ages,2.63%,2.32%,2.95%,GBD 2019,Mental Health
+Global,1990,Emotional disorder,Mental disorders,Both,All ages,12.70%,11.71%,13.73%,GBD 1990,Mental Health
+Republic of Indonesia,1990,Emotional disorder,Mental disorders,Both,All ages,10.60%,9.64%,11.51%,GBD 1990,Mental Health
+Global,1991,Emotional disorder,Mental disorders,Both,All ages,12.76%,11.77%,13.79%,GBD 1991,Mental Health
+Republic of Indonesia,1991,Emotional disorder,Mental disorders,Both,All ages,10.59%,9.63%,11.50%,GBD 1991,Mental Health
+Global,1992,Emotional disorder,Mental disorders,Both,All ages,12.81%,11.83%,13.84%,GBD 1992,Mental Health
+Republic of Indonesia,1992,Emotional disorder,Mental disorders,Both,All ages,10.59%,9.64%,11.49%,GBD 1992,Mental Health
+Global,1993,Emotional disorder,Mental disorders,Both,All ages,12.86%,11.89%,13.90%,GBD 1993,Mental Health
+Republic of Indonesia,1993,Emotional disorder,Mental disorders,Both,All ages,10.60%,9.65%,11.49%,GBD 1993,Mental Health
+Global,1994,Emotional disorder,Mental disorders,Both,All ages,12.91%,11.94%,13.95%,GBD 1994,Mental Health
+Republic of Indonesia,1994,Emotional disorder,Mental disorders,Both,All ages,10.60%,9.67%,11.49%,GBD 1994,Mental Health
+Global,1995,Emotional disorder,Mental disorders,Both,All ages,12.94%,11.98%,13.98%,GBD 1995,Mental Health
+Republic of Indonesia,1995,Emotional disorder,Mental disorders,Both,All ages,10.61%,9.69%,11.49%,GBD 1995,Mental Health
+Global,1996,Emotional disorder,Mental disorders,Both,All ages,12.97%,12.00%,13.99%,GBD 1996,Mental Health
+Republic of Indonesia,1996,Emotional disorder,Mental disorders,Both,All ages,10.62%,9.70%,11.51%,GBD 1996,Mental Health
+Global,1997,Emotional disorder,Mental disorders,Both,All ages,13.01%,12.04%,14.02%,GBD 1997,Mental Health
+Republic of Indonesia,1997,Emotional disorder,Mental disorders,Both,All ages,10.64%,9.71%,11.54%,GBD 1997,Mental Health
+Global,1998,Emotional disorder,Mental disorders,Both,All ages,13.05%,12.08%,14.06%,GBD 1998,Mental Health
+Republic of Indonesia,1998,Emotional disorder,Mental disorders,Both,All ages,10.66%,9.74%,11.56%,GBD 1998,Mental Health
+Global,1999,Emotional disorder,Mental disorders,Both,All ages,13.09%,12.11%,14.09%,GBD 1999,Mental Health
+Republic of Indonesia,1999,Emotional disorder,Mental disorders,Both,All ages,10.68%,9.74%,11.59%,GBD 1999,Mental Health
+Global,2000,Emotional disorder,Mental disorders,Both,All ages,13.11%,12.13%,14.11%,GBD 2000,Mental Health
+Republic of Indonesia,2000,Emotional disorder,Mental disorders,Both,All ages,10.70%,9.79%,11.61%,GBD 2000,Mental Health
+Global,2001,Emotional disorder,Mental disorders,Both,All ages,13.13%,12.17%,14.12%,GBD 2001,Mental Health
+Republic of Indonesia,2001,Emotional disorder,Mental disorders,Both,All ages,10.73%,9.82%,11.67%,GBD 2001,Mental Health
+Global,2002,Emotional disorder,Mental disorders,Both,All ages,13.15%,12.18%,14.13%,GBD 2002,Mental Health
+Republic of Indonesia,2002,Emotional disorder,Mental disorders,Both,All ages,10.77%,9.85%,11.70%,GBD 2002,Mental Health
+Global,2003,Emotional disorder,Mental disorders,Both,All ages,13.15%,12.20%,14.13%,GBD 2003,Mental Health
+Republic of Indonesia,2003,Emotional disorder,Mental disorders,Both,All ages,10.82%,9.90%,11.75%,GBD 2003,Mental Health
+Global,2004,Emotional disorder,Mental disorders,Both,All ages,13.16%,12.21%,14.14%,GBD 2004,Mental Health
+Republic of Indonesia,2004,Emotional disorder,Mental disorders,Both,All ages,10.86%,9.93%,11.79%,GBD 2004,Mental Health
+Global,2005,Emotional disorder,Mental disorders,Both,All ages,13.16%,12.22%,14.13%,GBD 2005,Mental Health
+Republic of Indonesia,2005,Emotional disorder,Mental disorders,Both,All ages,10.88%,9.96%,11.81%,GBD 2005,Mental Health
+Global,2006,Emotional disorder,Mental disorders,Both,All ages,13.15%,12.20%,14.13%,GBD 2006,Mental Health
+Republic of Indonesia,2006,Emotional disorder,Mental disorders,Both,All ages,10.88%,9.95%,11.80%,GBD 2006,Mental Health
+Global,2007,Emotional disorder,Mental disorders,Both,All ages,13.12%,12.19%,14.11%,GBD 2007,Mental Health
+Republic of Indonesia,2007,Emotional disorder,Mental disorders,Both,All ages,10.86%,9.95%,11.77%,GBD 2007,Mental Health
+Global,2008,Emotional disorder,Mental disorders,Both,All ages,13.09%,12.17%,14.08%,GBD 2008,Mental Health
+Republic of Indonesia,2008,Emotional disorder,Mental disorders,Both,All ages,10.84%,9.94%,11.74%,GBD 2008,Mental Health
+Global,2009,Emotional disorder,Mental disorders,Both,All ages,13.06%,12.15%,14.05%,GBD 2009,Mental Health
+Republic of Indonesia,2009,Emotional disorder,Mental disorders,Both,All ages,10.82%,9.92%,11.73%,GBD 2009,Mental Health
+Global,2010,Emotional disorder,Mental disorders,Both,All ages,13.04%,12.13%,14.04%,GBD 2010,Mental Health
+Republic of Indonesia,2010,Emotional disorder,Mental disorders,Both,All ages,10.81%,9.91%,11.71%,GBD 2010,Mental Health
+Global,2011,Emotional disorder,Mental disorders,Both,All ages,13.03%,12.13%,14.03%,GBD 2011,Mental Health
+Republic of Indonesia,2011,Emotional disorder,Mental disorders,Both,All ages,10.81%,9.92%,11.71%,GBD 2011,Mental Health
+Global,2012,Emotional disorder,Mental disorders,Both,All ages,13.01%,12.12%,14.01%,GBD 2012,Mental Health
+Republic of Indonesia,2012,Emotional disorder,Mental disorders,Both,All ages,10.82%,9.94%,11.72%,GBD 2012,Mental Health
+Global,2013,Emotional disorder,Mental disorders,Both,All ages,13.00%,12.10%,13.98%,GBD 2013,Mental Health
+Republic of Indonesia,2013,Emotional disorder,Mental disorders,Both,All ages,10.84%,9.95%,11.73%,GBD 2013,Mental Health
+Global,2014,Emotional disorder,Mental disorders,Both,All ages,12.98%,12.08%,13.96%,GBD 2014,Mental Health
+Republic of Indonesia,2014,Emotional disorder,Mental disorders,Both,All ages,10.86%,9.97%,11.74%,GBD 2014,Mental Health
+Global,2015,Emotional disorder,Mental disorders,Both,All ages,12.98%,12.07%,13.96%,GBD 2015,Mental Health
+Republic of Indonesia,2015,Emotional disorder,Mental disorders,Both,All ages,10.88%,9.99%,11.76%,GBD 2015,Mental Health
+Global,2016,Emotional disorder,Mental disorders,Both,All ages,13.00%,12.10%,13.98%,GBD 2016,Mental Health
+Republic of Indonesia,2016,Emotional disorder,Mental disorders,Both,All ages,10.89%,10.00%,11.77%,GBD 2016,Mental Health
+Global,2017,Emotional disorder,Mental disorders,Both,All ages,13.02%,12.11%,14.00%,GBD 2017,Mental Health
+Republic of Indonesia,2017,Emotional disorder,Mental disorders,Both,All ages,10.91%,10.02%,11.78%,GBD 2017,Mental Health
+Global,2018,Emotional disorder,Mental disorders,Both,All ages,13.03%,12.12%,14.01%,GBD 2018,Mental Health
+Republic of Indonesia,2018,Emotional disorder,Mental disorders,Both,All ages,10.95%,10.08%,11.83%,GBD 2018,Mental Health
+Global,2019,Emotional disorder,Mental disorders,Both,All ages,13.04%,12.12%,14.01%,GBD 2019,Mental Health
+Republic of Indonesia,2019,Emotional disorder,Mental disorders,Both,All ages,11.01%,10.13%,11.89%,GBD 2019,Mental Health
+Global,1990,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.32%,GBD 1990,Mental Health
+Republic of Indonesia,1990,Schizophrenia,Schizophrenia,Both,All ages,0.25%,0.21%,0.29%,GBD 1990,Mental Health
+Global,1991,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.32%,GBD 1991,Mental Health
+Republic of Indonesia,1991,Schizophrenia,Schizophrenia,Both,All ages,0.25%,0.21%,0.30%,GBD 1991,Mental Health
+Global,1992,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.32%,GBD 1992,Mental Health
+Republic of Indonesia,1992,Schizophrenia,Schizophrenia,Both,All ages,0.26%,0.22%,0.30%,GBD 1992,Mental Health
+Global,1993,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.32%,GBD 1993,Mental Health
+Republic of Indonesia,1993,Schizophrenia,Schizophrenia,Both,All ages,0.26%,0.22%,0.31%,GBD 1993,Mental Health
+Global,1994,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.33%,GBD 1994,Mental Health
+Republic of Indonesia,1994,Schizophrenia,Schizophrenia,Both,All ages,0.26%,0.22%,0.31%,GBD 1994,Mental Health
+Global,1995,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.33%,GBD 1995,Mental Health
+Republic of Indonesia,1995,Schizophrenia,Schizophrenia,Both,All ages,0.27%,0.23%,0.31%,GBD 1995,Mental Health
+Global,1996,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.33%,GBD 1996,Mental Health
+Republic of Indonesia,1996,Schizophrenia,Schizophrenia,Both,All ages,0.27%,0.23%,0.32%,GBD 1996,Mental Health
+Global,1997,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.33%,GBD 1997,Mental Health
+Republic of Indonesia,1997,Schizophrenia,Schizophrenia,Both,All ages,0.27%,0.23%,0.32%,GBD 1997,Mental Health
+Global,1998,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.33%,GBD 1998,Mental Health
+Republic of Indonesia,1998,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.23%,0.32%,GBD 1998,Mental Health
+Global,1999,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.34%,GBD 1999,Mental Health
+Republic of Indonesia,1999,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.33%,GBD 1999,Mental Health
+Global,2000,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.34%,GBD 2000,Mental Health
+Republic of Indonesia,2000,Schizophrenia,Schizophrenia,Both,All ages,0.28%,0.24%,0.33%,GBD 2000,Mental Health
+Global,2001,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.34%,GBD 2001,Mental Health
+Republic of Indonesia,2001,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.24%,0.33%,GBD 2001,Mental Health
+Global,2002,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.25%,0.34%,GBD 2002,Mental Health
+Republic of Indonesia,2002,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.24%,0.34%,GBD 2002,Mental Health
+Global,2003,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.34%,GBD 2003,Mental Health
+Republic of Indonesia,2003,Schizophrenia,Schizophrenia,Both,All ages,0.29%,0.25%,0.34%,GBD 2003,Mental Health
+Global,2004,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.35%,GBD 2004,Mental Health
+Republic of Indonesia,2004,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.25%,0.34%,GBD 2004,Mental Health
+Global,2005,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.35%,GBD 2005,Mental Health
+Republic of Indonesia,2005,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.25%,0.35%,GBD 2005,Mental Health
+Global,2006,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.35%,GBD 2006,Mental Health
+Republic of Indonesia,2006,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.25%,0.35%,GBD 2006,Mental Health
+Global,2007,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.35%,GBD 2007,Mental Health
+Republic of Indonesia,2007,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.25%,0.35%,GBD 2007,Mental Health
+Global,2008,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.26%,0.35%,GBD 2008,Mental Health
+Republic of Indonesia,2008,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.35%,GBD 2008,Mental Health
+Global,2009,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.26%,0.35%,GBD 2009,Mental Health
+Republic of Indonesia,2009,Schizophrenia,Schizophrenia,Both,All ages,0.30%,0.26%,0.35%,GBD 2009,Mental Health
+Global,2010,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2010,Mental Health
+Republic of Indonesia,2010,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.26%,0.36%,GBD 2010,Mental Health
+Global,2011,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2011,Mental Health
+Republic of Indonesia,2011,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.26%,0.36%,GBD 2011,Mental Health
+Global,2012,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2012,Mental Health
+Republic of Indonesia,2012,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2012,Mental Health
+Global,2013,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2013,Mental Health
+Republic of Indonesia,2013,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.37%,GBD 2013,Mental Health
+Global,2014,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2014,Mental Health
+Republic of Indonesia,2014,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.37%,GBD 2014,Mental Health
+Global,2015,Schizophrenia,Schizophrenia,Both,All ages,0.31%,0.27%,0.36%,GBD 2015,Mental Health
+Republic of Indonesia,2015,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.37%,GBD 2015,Mental Health
+Global,2016,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.36%,GBD 2016,Mental Health
+Republic of Indonesia,2016,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.28%,0.38%,GBD 2016,Mental Health
+Global,2017,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.36%,GBD 2017,Mental Health
+Republic of Indonesia,2017,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.28%,0.38%,GBD 2017,Mental Health
+Global,2018,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.37%,GBD 2018,Mental Health
+Republic of Indonesia,2018,Schizophrenia,Schizophrenia,Both,All ages,0.33%,0.28%,0.38%,GBD 2018,Mental Health
+Global,2019,Schizophrenia,Schizophrenia,Both,All ages,0.32%,0.27%,0.37%,GBD 2019,Mental Health
+Republic of Indonesia,2019,Schizophrenia,Schizophrenia,Both,All ages,0.33%,0.28%,0.38%,GBD 2019,Mental Health
+Global,1990,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.17%,2.69%,3.70%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.67%,3.07%,4.30%,GBD 1990,Communicable Diseases
+Global,1991,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.09%,2.64%,3.59%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.57%,3.00%,4.19%,GBD 1991,Communicable Diseases
+Global,1992,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.02%,2.59%,3.49%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.49%,2.93%,4.09%,GBD 1992,Communicable Diseases
+Global,1993,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.96%,2.55%,3.41%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.40%,2.87%,3.99%,GBD 1993,Communicable Diseases
+Global,1994,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.92%,2.53%,3.36%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.32%,2.80%,3.90%,GBD 1994,Communicable Diseases
+Global,1995,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.90%,2.52%,3.32%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.25%,2.74%,3.82%,GBD 1995,Communicable Diseases
+Global,1996,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.90%,2.51%,3.31%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.17%,2.68%,3.74%,GBD 1996,Communicable Diseases
+Global,1997,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.89%,2.51%,3.29%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.08%,2.59%,3.64%,GBD 1997,Communicable Diseases
+Global,1998,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.88%,2.50%,3.27%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.00%,2.51%,3.55%,GBD 1998,Communicable Diseases
+Global,1999,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.87%,2.50%,3.27%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.94%,2.45%,3.49%,GBD 1999,Communicable Diseases
+Global,2000,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.88%,2.50%,3.27%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.91%,2.41%,3.47%,GBD 2000,Communicable Diseases
+Global,2001,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.89%,2.51%,3.28%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.93%,2.43%,3.49%,GBD 2001,Communicable Diseases
+Global,2002,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.90%,2.53%,3.31%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.97%,2.45%,3.55%,GBD 2002,Communicable Diseases
+Global,2003,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.92%,2.54%,3.32%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.02%,2.49%,3.63%,GBD 2003,Communicable Diseases
+Global,2004,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.94%,2.55%,3.33%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.07%,2.54%,3.70%,GBD 2004,Communicable Diseases
+Global,2005,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.94%,2.55%,3.34%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.12%,2.57%,3.75%,GBD 2005,Communicable Diseases
+Global,2006,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.93%,2.54%,3.33%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.16%,2.60%,3.81%,GBD 2006,Communicable Diseases
+Global,2007,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.90%,2.52%,3.31%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.22%,2.64%,3.90%,GBD 2007,Communicable Diseases
+Global,2008,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.87%,2.49%,3.27%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.28%,2.68%,3.96%,GBD 2008,Communicable Diseases
+Global,2009,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.84%,2.46%,3.24%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.33%,2.74%,4.02%,GBD 2009,Communicable Diseases
+Global,2010,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.82%,2.44%,3.22%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.36%,2.75%,4.04%,GBD 2010,Communicable Diseases
+Global,2011,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.79%,2.42%,3.19%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.33%,2.73%,4.02%,GBD 2011,Communicable Diseases
+Global,2012,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.76%,2.38%,3.17%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.27%,2.67%,3.96%,GBD 2012,Communicable Diseases
+Global,2013,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.72%,2.34%,3.13%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.20%,2.59%,3.89%,GBD 2013,Communicable Diseases
+Global,2014,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.69%,2.31%,3.11%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.14%,2.53%,3.84%,GBD 2014,Communicable Diseases
+Global,2015,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.67%,2.28%,3.10%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.11%,2.50%,3.82%,GBD 2015,Communicable Diseases
+Global,2016,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.69%,2.27%,3.15%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.16%,2.52%,3.85%,GBD 2016,Communicable Diseases
+Global,2017,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.70%,2.27%,3.20%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.20%,2.56%,3.93%,GBD 2017,Communicable Diseases
+Global,2018,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.69%,2.25%,3.20%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,3.05%,2.44%,3.78%,GBD 2018,Communicable Diseases
+Global,2019,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.67%,2.22%,3.18%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,Diarrhea <5 y.o.,Diarrheal diseases,Both,<5 years,2.71%,2.18%,3.33%,GBD 2019,Communicable Diseases
+Global,1990,Diarrhea,Diarrheal diseases,Both,All ages,1.39%,1.27%,1.51%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,Diarrhea,Diarrheal diseases,Both,All ages,1.03%,0.94%,1.12%,GBD 1990,Communicable Diseases
+Global,1991,Diarrhea,Diarrheal diseases,Both,All ages,1.37%,1.26%,1.48%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,Diarrhea,Diarrheal diseases,Both,All ages,0.99%,0.91%,1.08%,GBD 1991,Communicable Diseases
+Global,1992,Diarrhea,Diarrheal diseases,Both,All ages,1.36%,1.25%,1.46%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,Diarrhea,Diarrheal diseases,Both,All ages,0.96%,0.88%,1.04%,GBD 1992,Communicable Diseases
+Global,1993,Diarrhea,Diarrheal diseases,Both,All ages,1.34%,1.24%,1.45%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,Diarrhea,Diarrheal diseases,Both,All ages,0.93%,0.86%,1.01%,GBD 1993,Communicable Diseases
+Global,1994,Diarrhea,Diarrheal diseases,Both,All ages,1.34%,1.24%,1.44%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,Diarrhea,Diarrheal diseases,Both,All ages,0.91%,0.84%,0.98%,GBD 1994,Communicable Diseases
+Global,1995,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.43%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,Diarrhea,Diarrheal diseases,Both,All ages,0.89%,0.82%,0.96%,GBD 1995,Communicable Diseases
+Global,1996,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.23%,1.43%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,Diarrhea,Diarrheal diseases,Both,All ages,0.87%,0.81%,0.94%,GBD 1996,Communicable Diseases
+Global,1997,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.43%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,Diarrhea,Diarrheal diseases,Both,All ages,0.86%,0.80%,0.93%,GBD 1997,Communicable Diseases
+Global,1998,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.43%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,Diarrhea,Diarrheal diseases,Both,All ages,0.85%,0.78%,0.92%,GBD 1998,Communicable Diseases
+Global,1999,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.43%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,Diarrhea,Diarrheal diseases,Both,All ages,0.84%,0.78%,0.91%,GBD 1999,Communicable Diseases
+Global,2000,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.43%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,Diarrhea,Diarrheal diseases,Both,All ages,0.83%,0.77%,0.90%,GBD 2000,Communicable Diseases
+Global,2001,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.42%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,Diarrhea,Diarrheal diseases,Both,All ages,0.83%,0.77%,0.90%,GBD 2001,Communicable Diseases
+Global,2002,Diarrhea,Diarrheal diseases,Both,All ages,1.32%,1.23%,1.41%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,Diarrhea,Diarrheal diseases,Both,All ages,0.84%,0.77%,0.91%,GBD 2002,Communicable Diseases
+Global,2003,Diarrhea,Diarrheal diseases,Both,All ages,1.30%,1.22%,1.39%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,Diarrhea,Diarrheal diseases,Both,All ages,0.84%,0.78%,0.91%,GBD 2003,Communicable Diseases
+Global,2004,Diarrhea,Diarrheal diseases,Both,All ages,1.29%,1.20%,1.38%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,Diarrhea,Diarrheal diseases,Both,All ages,0.84%,0.78%,0.91%,GBD 2004,Communicable Diseases
+Global,2005,Diarrhea,Diarrheal diseases,Both,All ages,1.27%,1.19%,1.36%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,Diarrhea,Diarrheal diseases,Both,All ages,0.84%,0.78%,0.91%,GBD 2005,Communicable Diseases
+Global,2006,Diarrhea,Diarrheal diseases,Both,All ages,1.26%,1.18%,1.34%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,Diarrhea,Diarrheal diseases,Both,All ages,0.84%,0.77%,0.91%,GBD 2006,Communicable Diseases
+Global,2007,Diarrhea,Diarrheal diseases,Both,All ages,1.24%,1.16%,1.32%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,Diarrhea,Diarrheal diseases,Both,All ages,0.83%,0.76%,0.90%,GBD 2007,Communicable Diseases
+Global,2008,Diarrhea,Diarrheal diseases,Both,All ages,1.22%,1.14%,1.30%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,Diarrhea,Diarrheal diseases,Both,All ages,0.82%,0.75%,0.89%,GBD 2008,Communicable Diseases
+Global,2009,Diarrhea,Diarrheal diseases,Both,All ages,1.20%,1.13%,1.28%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,Diarrhea,Diarrheal diseases,Both,All ages,0.80%,0.74%,0.87%,GBD 2009,Communicable Diseases
+Global,2010,Diarrhea,Diarrheal diseases,Both,All ages,1.20%,1.12%,1.28%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,Diarrhea,Diarrheal diseases,Both,All ages,0.80%,0.73%,0.87%,GBD 2010,Communicable Diseases
+Global,2011,Diarrhea,Diarrheal diseases,Both,All ages,1.20%,1.13%,1.28%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,Diarrhea,Diarrheal diseases,Both,All ages,0.80%,0.73%,0.87%,GBD 2011,Communicable Diseases
+Global,2012,Diarrhea,Diarrheal diseases,Both,All ages,1.21%,1.13%,1.29%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,Diarrhea,Diarrheal diseases,Both,All ages,0.80%,0.73%,0.87%,GBD 2012,Communicable Diseases
+Global,2013,Diarrhea,Diarrheal diseases,Both,All ages,1.22%,1.14%,1.31%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,Diarrhea,Diarrheal diseases,Both,All ages,0.80%,0.74%,0.87%,GBD 2013,Communicable Diseases
+Global,2014,Diarrhea,Diarrheal diseases,Both,All ages,1.23%,1.15%,1.32%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,Diarrhea,Diarrheal diseases,Both,All ages,0.81%,0.74%,0.88%,GBD 2014,Communicable Diseases
+Global,2015,Diarrhea,Diarrheal diseases,Both,All ages,1.25%,1.16%,1.33%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,Diarrhea,Diarrheal diseases,Both,All ages,0.81%,0.75%,0.88%,GBD 2015,Communicable Diseases
+Global,2016,Diarrhea,Diarrheal diseases,Both,All ages,1.27%,1.18%,1.36%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,Diarrhea,Diarrheal diseases,Both,All ages,0.82%,0.75%,0.89%,GBD 2016,Communicable Diseases
+Global,2017,Diarrhea,Diarrheal diseases,Both,All ages,1.30%,1.21%,1.40%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,Diarrhea,Diarrheal diseases,Both,All ages,0.83%,0.75%,0.90%,GBD 2017,Communicable Diseases
+Global,2018,Diarrhea,Diarrheal diseases,Both,All ages,1.31%,1.22%,1.41%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,Diarrhea,Diarrheal diseases,Both,All ages,0.88%,0.81%,0.96%,GBD 2018,Communicable Diseases
+Global,2019,Diarrhea,Diarrheal diseases,Both,All ages,1.33%,1.24%,1.43%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,Diarrhea,Diarrheal diseases,Both,All ages,1.00%,0.93%,1.08%,GBD 2019,Communicable Diseases
+Global,1990,Filariasis,Lymphatic filariasis,Both,All ages,4.17%,3.59%,4.97%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,Filariasis,Lymphatic filariasis,Both,All ages,8.42%,2.42%,24.92%,GBD 1990,Communicable Diseases
+Global,1991,Filariasis,Lymphatic filariasis,Both,All ages,4.26%,3.74%,4.98%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,Filariasis,Lymphatic filariasis,Both,All ages,8.77%,3.02%,23.07%,GBD 1991,Communicable Diseases
+Global,1992,Filariasis,Lymphatic filariasis,Both,All ages,4.32%,3.84%,5.02%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,Filariasis,Lymphatic filariasis,Both,All ages,9.08%,3.46%,22.27%,GBD 1992,Communicable Diseases
+Global,1993,Filariasis,Lymphatic filariasis,Both,All ages,4.38%,3.88%,5.08%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,Filariasis,Lymphatic filariasis,Both,All ages,9.35%,3.69%,22.43%,GBD 1993,Communicable Diseases
+Global,1994,Filariasis,Lymphatic filariasis,Both,All ages,4.43%,3.89%,5.18%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,Filariasis,Lymphatic filariasis,Both,All ages,9.57%,3.82%,24.34%,GBD 1994,Communicable Diseases
+Global,1995,Filariasis,Lymphatic filariasis,Both,All ages,4.47%,3.87%,5.36%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,Filariasis,Lymphatic filariasis,Both,All ages,9.71%,3.45%,26.79%,GBD 1995,Communicable Diseases
+Global,1996,Filariasis,Lymphatic filariasis,Both,All ages,4.50%,3.98%,5.28%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,Filariasis,Lymphatic filariasis,Both,All ages,9.93%,4.06%,24.34%,GBD 1996,Communicable Diseases
+Global,1997,Filariasis,Lymphatic filariasis,Both,All ages,4.50%,4.02%,5.18%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,Filariasis,Lymphatic filariasis,Both,All ages,10.22%,4.47%,22.59%,GBD 1997,Communicable Diseases
+Global,1998,Filariasis,Lymphatic filariasis,Both,All ages,4.49%,4.02%,5.09%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,Filariasis,Lymphatic filariasis,Both,All ages,10.49%,4.84%,22.43%,GBD 1998,Communicable Diseases
+Global,1999,Filariasis,Lymphatic filariasis,Both,All ages,4.45%,3.97%,5.09%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,Filariasis,Lymphatic filariasis,Both,All ages,10.65%,4.75%,24.41%,GBD 1999,Communicable Diseases
+Global,2000,Filariasis,Lymphatic filariasis,Both,All ages,4.41%,3.88%,5.14%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,Filariasis,Lymphatic filariasis,Both,All ages,10.57%,4.13%,26.78%,GBD 2000,Communicable Diseases
+Global,2001,Filariasis,Lymphatic filariasis,Both,All ages,4.25%,3.81%,4.81%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,Filariasis,Lymphatic filariasis,Both,All ages,10.03%,4.61%,22.69%,GBD 2001,Communicable Diseases
+Global,2002,Filariasis,Lymphatic filariasis,Both,All ages,3.93%,3.56%,4.39%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,Filariasis,Lymphatic filariasis,Both,All ages,8.91%,4.37%,18.43%,GBD 2002,Communicable Diseases
+Global,2003,Filariasis,Lymphatic filariasis,Both,All ages,3.52%,3.20%,3.90%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,Filariasis,Lymphatic filariasis,Both,All ages,7.56%,3.72%,15.44%,GBD 2003,Communicable Diseases
+Global,2004,Filariasis,Lymphatic filariasis,Both,All ages,3.13%,2.83%,3.50%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,Filariasis,Lymphatic filariasis,Both,All ages,6.34%,3.03%,14.49%,GBD 2004,Communicable Diseases
+Global,2005,Filariasis,Lymphatic filariasis,Both,All ages,2.84%,2.53%,3.26%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,Filariasis,Lymphatic filariasis,Both,All ages,5.58%,2.31%,13.68%,GBD 2005,Communicable Diseases
+Global,2006,Filariasis,Lymphatic filariasis,Both,All ages,2.59%,2.33%,2.92%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,Filariasis,Lymphatic filariasis,Both,All ages,5.12%,2.48%,11.17%,GBD 2006,Communicable Diseases
+Global,2007,Filariasis,Lymphatic filariasis,Both,All ages,2.24%,2.03%,2.51%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,Filariasis,Lymphatic filariasis,Both,All ages,4.57%,2.23%,9.42%,GBD 2007,Communicable Diseases
+Global,2008,Filariasis,Lymphatic filariasis,Both,All ages,1.88%,1.70%,2.12%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,Filariasis,Lymphatic filariasis,Both,All ages,4.03%,1.95%,8.41%,GBD 2008,Communicable Diseases
+Global,2009,Filariasis,Lymphatic filariasis,Both,All ages,1.57%,1.39%,1.83%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,Filariasis,Lymphatic filariasis,Both,All ages,3.59%,1.63%,8.51%,GBD 2009,Communicable Diseases
+Global,2010,Filariasis,Lymphatic filariasis,Both,All ages,1.39%,1.19%,1.70%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,Filariasis,Lymphatic filariasis,Both,All ages,3.33%,1.25%,9.65%,GBD 2010,Communicable Diseases
+Global,2011,Filariasis,Lymphatic filariasis,Both,All ages,1.32%,1.14%,1.58%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,Filariasis,Lymphatic filariasis,Both,All ages,3.21%,1.42%,8.66%,GBD 2011,Communicable Diseases
+Global,2012,Filariasis,Lymphatic filariasis,Both,All ages,1.27%,1.13%,1.49%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,Filariasis,Lymphatic filariasis,Both,All ages,3.10%,1.45%,7.88%,GBD 2012,Communicable Diseases
+Global,2013,Filariasis,Lymphatic filariasis,Both,All ages,1.25%,1.10%,1.47%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,Filariasis,Lymphatic filariasis,Both,All ages,2.99%,1.38%,7.89%,GBD 2013,Communicable Diseases
+Global,2014,Filariasis,Lymphatic filariasis,Both,All ages,1.23%,1.07%,1.48%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,Filariasis,Lymphatic filariasis,Both,All ages,2.91%,1.30%,8.57%,GBD 2014,Communicable Diseases
+Global,2015,Filariasis,Lymphatic filariasis,Both,All ages,1.21%,1.03%,1.50%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,Filariasis,Lymphatic filariasis,Both,All ages,2.85%,1.14%,9.91%,GBD 2015,Communicable Diseases
+Global,2016,Filariasis,Lymphatic filariasis,Both,All ages,1.07%,0.92%,1.30%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,Filariasis,Lymphatic filariasis,Both,All ages,2.57%,1.05%,7.99%,GBD 2016,Communicable Diseases
+Global,2017,Filariasis,Lymphatic filariasis,Both,All ages,0.95%,0.77%,1.27%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,Filariasis,Lymphatic filariasis,Both,All ages,2.31%,0.70%,10.11%,GBD 2017,Communicable Diseases
+Global,2018,Filariasis,Lymphatic filariasis,Both,All ages,0.96%,0.78%,1.28%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,Filariasis,Lymphatic filariasis,Both,All ages,2.32%,0.70%,10.12%,GBD 2018,Communicable Diseases
+Global,2019,Filariasis,Lymphatic filariasis,Both,All ages,0.97%,0.79%,1.29%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,Filariasis,Lymphatic filariasis,Both,All ages,2.33%,0.70%,10.13%,GBD 2019,Communicable Diseases
+Global,1990,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.39%,0.47%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.40%,0.48%,GBD 1990,Communicable Diseases
+Global,1991,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.39%,0.47%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.40%,0.47%,GBD 1991,Communicable Diseases
+Global,1992,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.39%,0.46%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.39%,0.47%,GBD 1992,Communicable Diseases
+Global,1993,Hepatitis,Acute hepatitis,Both,All ages,0.42%,0.39%,0.46%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,Hepatitis,Acute hepatitis,Both,All ages,0.43%,0.39%,0.46%,GBD 1993,Communicable Diseases
+Global,1994,Hepatitis,Acute hepatitis,Both,All ages,0.42%,0.39%,0.46%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,Hepatitis,Acute hepatitis,Both,All ages,0.42%,0.39%,0.46%,GBD 1994,Communicable Diseases
+Global,1995,Hepatitis,Acute hepatitis,Both,All ages,0.42%,0.38%,0.46%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,Hepatitis,Acute hepatitis,Both,All ages,0.42%,0.38%,0.46%,GBD 1995,Communicable Diseases
+Global,1996,Hepatitis,Acute hepatitis,Both,All ages,0.41%,0.38%,0.45%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,Hepatitis,Acute hepatitis,Both,All ages,0.42%,0.38%,0.46%,GBD 1996,Communicable Diseases
+Global,1997,Hepatitis,Acute hepatitis,Both,All ages,0.41%,0.38%,0.45%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,Hepatitis,Acute hepatitis,Both,All ages,0.41%,0.37%,0.45%,GBD 1997,Communicable Diseases
+Global,1998,Hepatitis,Acute hepatitis,Both,All ages,0.41%,0.37%,0.44%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,Hepatitis,Acute hepatitis,Both,All ages,0.40%,0.37%,0.44%,GBD 1998,Communicable Diseases
+Global,1999,Hepatitis,Acute hepatitis,Both,All ages,0.40%,0.37%,0.44%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,Hepatitis,Acute hepatitis,Both,All ages,0.40%,0.36%,0.44%,GBD 1999,Communicable Diseases
+Global,2000,Hepatitis,Acute hepatitis,Both,All ages,0.40%,0.36%,0.44%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,Hepatitis,Acute hepatitis,Both,All ages,0.40%,0.36%,0.44%,GBD 2000,Communicable Diseases
+Global,2001,Hepatitis,Acute hepatitis,Both,All ages,0.40%,0.36%,0.43%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.36%,0.43%,GBD 2001,Communicable Diseases
+Global,2002,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.36%,0.43%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.36%,0.43%,GBD 2002,Communicable Diseases
+Global,2003,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.35%,0.42%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.36%,0.43%,GBD 2003,Communicable Diseases
+Global,2004,Hepatitis,Acute hepatitis,Both,All ages,0.38%,0.35%,0.42%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.35%,0.43%,GBD 2004,Communicable Diseases
+Global,2005,Hepatitis,Acute hepatitis,Both,All ages,0.38%,0.34%,0.41%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,Hepatitis,Acute hepatitis,Both,All ages,0.39%,0.35%,0.43%,GBD 2005,Communicable Diseases
+Global,2006,Hepatitis,Acute hepatitis,Both,All ages,0.37%,0.34%,0.41%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,Hepatitis,Acute hepatitis,Both,All ages,0.38%,0.35%,0.42%,GBD 2006,Communicable Diseases
+Global,2007,Hepatitis,Acute hepatitis,Both,All ages,0.37%,0.34%,0.40%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,Hepatitis,Acute hepatitis,Both,All ages,0.38%,0.34%,0.41%,GBD 2007,Communicable Diseases
+Global,2008,Hepatitis,Acute hepatitis,Both,All ages,0.37%,0.34%,0.40%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,Hepatitis,Acute hepatitis,Both,All ages,0.37%,0.34%,0.41%,GBD 2008,Communicable Diseases
+Global,2009,Hepatitis,Acute hepatitis,Both,All ages,0.36%,0.33%,0.39%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,Hepatitis,Acute hepatitis,Both,All ages,0.37%,0.33%,0.40%,GBD 2009,Communicable Diseases
+Global,2010,Hepatitis,Acute hepatitis,Both,All ages,0.36%,0.33%,0.39%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,Hepatitis,Acute hepatitis,Both,All ages,0.36%,0.33%,0.40%,GBD 2010,Communicable Diseases
+Global,2011,Hepatitis,Acute hepatitis,Both,All ages,0.35%,0.33%,0.39%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,Hepatitis,Acute hepatitis,Both,All ages,0.36%,0.32%,0.39%,GBD 2011,Communicable Diseases
+Global,2012,Hepatitis,Acute hepatitis,Both,All ages,0.35%,0.32%,0.38%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,Hepatitis,Acute hepatitis,Both,All ages,0.35%,0.32%,0.39%,GBD 2012,Communicable Diseases
+Global,2013,Hepatitis,Acute hepatitis,Both,All ages,0.34%,0.32%,0.38%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,Hepatitis,Acute hepatitis,Both,All ages,0.35%,0.31%,0.38%,GBD 2013,Communicable Diseases
+Global,2014,Hepatitis,Acute hepatitis,Both,All ages,0.34%,0.31%,0.37%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,Hepatitis,Acute hepatitis,Both,All ages,0.34%,0.31%,0.38%,GBD 2014,Communicable Diseases
+Global,2015,Hepatitis,Acute hepatitis,Both,All ages,0.34%,0.31%,0.37%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,Hepatitis,Acute hepatitis,Both,All ages,0.33%,0.30%,0.37%,GBD 2015,Communicable Diseases
+Global,2016,Hepatitis,Acute hepatitis,Both,All ages,0.33%,0.30%,0.36%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,Hepatitis,Acute hepatitis,Both,All ages,0.33%,0.30%,0.36%,GBD 2016,Communicable Diseases
+Global,2017,Hepatitis,Acute hepatitis,Both,All ages,0.33%,0.30%,0.36%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,Hepatitis,Acute hepatitis,Both,All ages,0.32%,0.29%,0.35%,GBD 2017,Communicable Diseases
+Global,2018,Hepatitis,Acute hepatitis,Both,All ages,0.32%,0.30%,0.35%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,Hepatitis,Acute hepatitis,Both,All ages,0.31%,0.29%,0.34%,GBD 2018,Communicable Diseases
+Global,2019,Hepatitis,Acute hepatitis,Both,All ages,0.32%,0.29%,0.35%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,Hepatitis,Acute hepatitis,Both,All ages,0.31%,0.28%,0.35%,GBD 2019,Communicable Diseases
+Global,1990,Malaria,Malaria,Both,All ages,2.85%,2.61%,3.31%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,Malaria,Malaria,Both,All ages,0.73%,0.38%,1.27%,GBD 1990,Communicable Diseases
+Global,1991,Malaria,Malaria,Both,All ages,2.86%,2.63%,3.21%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,Malaria,Malaria,Both,All ages,0.72%,0.43%,1.16%,GBD 1991,Communicable Diseases
+Global,1992,Malaria,Malaria,Both,All ages,2.86%,2.65%,3.16%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,Malaria,Malaria,Both,All ages,0.70%,0.44%,1.07%,GBD 1992,Communicable Diseases
+Global,1993,Malaria,Malaria,Both,All ages,2.88%,2.67%,3.14%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,Malaria,Malaria,Both,All ages,0.68%,0.43%,1.00%,GBD 1993,Communicable Diseases
+Global,1994,Malaria,Malaria,Both,All ages,2.90%,2.69%,3.16%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,Malaria,Malaria,Both,All ages,0.66%,0.40%,0.99%,GBD 1994,Communicable Diseases
+Global,1995,Malaria,Malaria,Both,All ages,2.92%,2.71%,3.19%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,Malaria,Malaria,Both,All ages,0.63%,0.33%,1.02%,GBD 1995,Communicable Diseases
+Global,1996,Malaria,Malaria,Both,All ages,2.95%,2.75%,3.19%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,Malaria,Malaria,Both,All ages,0.60%,0.38%,0.90%,GBD 1996,Communicable Diseases
+Global,1997,Malaria,Malaria,Both,All ages,2.97%,2.78%,3.22%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,Malaria,Malaria,Both,All ages,0.57%,0.38%,0.79%,GBD 1997,Communicable Diseases
+Global,1998,Malaria,Malaria,Both,All ages,3.00%,2.81%,3.25%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,Malaria,Malaria,Both,All ages,0.52%,0.38%,0.68%,GBD 1998,Communicable Diseases
+Global,1999,Malaria,Malaria,Both,All ages,3.03%,2.84%,3.28%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,Malaria,Malaria,Both,All ages,0.48%,0.36%,0.60%,GBD 1999,Communicable Diseases
+Global,2000,Malaria,Malaria,Both,All ages,3.07%,2.87%,3.33%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,Malaria,Malaria,Both,All ages,0.45%,0.32%,0.56%,GBD 2000,Communicable Diseases
+Global,2001,Malaria,Malaria,Both,All ages,3.10%,2.94%,3.31%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,Malaria,Malaria,Both,All ages,0.43%,0.32%,0.52%,GBD 2001,Communicable Diseases
+Global,2002,Malaria,Malaria,Both,All ages,3.11%,2.97%,3.28%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,Malaria,Malaria,Both,All ages,0.40%,0.30%,0.51%,GBD 2002,Communicable Diseases
+Global,2003,Malaria,Malaria,Both,All ages,3.12%,2.98%,3.28%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,Malaria,Malaria,Both,All ages,0.38%,0.28%,0.47%,GBD 2003,Communicable Diseases
+Global,2004,Malaria,Malaria,Both,All ages,3.12%,2.98%,3.28%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,Malaria,Malaria,Both,All ages,0.37%,0.27%,0.44%,GBD 2004,Communicable Diseases
+Global,2005,Malaria,Malaria,Both,All ages,3.12%,2.96%,3.31%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,Malaria,Malaria,Both,All ages,0.37%,0.26%,0.42%,GBD 2005,Communicable Diseases
+Global,2006,Malaria,Malaria,Both,All ages,3.10%,2.97%,3.25%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,Malaria,Malaria,Both,All ages,0.41%,0.32%,0.46%,GBD 2006,Communicable Diseases
+Global,2007,Malaria,Malaria,Both,All ages,3.02%,2.92%,3.15%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,Malaria,Malaria,Both,All ages,0.49%,0.43%,0.54%,GBD 2007,Communicable Diseases
+Global,2008,Malaria,Malaria,Both,All ages,2.92%,2.84%,3.03%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,Malaria,Malaria,Both,All ages,0.59%,0.54%,0.64%,GBD 2008,Communicable Diseases
+Global,2009,Malaria,Malaria,Both,All ages,2.82%,2.74%,2.90%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,Malaria,Malaria,Both,All ages,0.67%,0.63%,0.72%,GBD 2009,Communicable Diseases
+Global,2010,Malaria,Malaria,Both,All ages,2.75%,2.65%,2.84%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,Malaria,Malaria,Both,All ages,0.71%,0.66%,0.75%,GBD 2010,Communicable Diseases
+Global,2011,Malaria,Malaria,Both,All ages,2.66%,2.58%,2.74%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,Malaria,Malaria,Both,All ages,0.66%,0.62%,0.70%,GBD 2011,Communicable Diseases
+Global,2012,Malaria,Malaria,Both,All ages,2.51%,2.44%,2.57%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,Malaria,Malaria,Both,All ages,0.56%,0.52%,0.59%,GBD 2012,Communicable Diseases
+Global,2013,Malaria,Malaria,Both,All ages,2.33%,2.26%,2.40%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,Malaria,Malaria,Both,All ages,0.43%,0.40%,0.46%,GBD 2013,Communicable Diseases
+Global,2014,Malaria,Malaria,Both,All ages,2.19%,2.11%,2.27%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,Malaria,Malaria,Both,All ages,0.32%,0.28%,0.35%,GBD 2014,Communicable Diseases
+Global,2015,Malaria,Malaria,Both,All ages,2.12%,2.03%,2.23%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,Malaria,Malaria,Both,All ages,0.27%,0.22%,0.30%,GBD 2015,Communicable Diseases
+Global,2016,Malaria,Malaria,Both,All ages,2.16%,2.04%,2.27%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,Malaria,Malaria,Both,All ages,0.28%,0.26%,0.30%,GBD 2016,Communicable Diseases
+Global,2017,Malaria,Malaria,Both,All ages,2.25%,2.05%,2.47%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,Malaria,Malaria,Both,All ages,0.30%,0.28%,0.32%,GBD 2017,Communicable Diseases
+Global,2018,Malaria,Malaria,Both,All ages,2.34%,2.14%,2.56%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,Malaria,Malaria,Both,All ages,0.30%,0.25%,0.39%,GBD 2018,Communicable Diseases
+Global,2019,Malaria,Malaria,Both,All ages,2.43%,2.19%,2.73%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,Malaria,Malaria,Both,All ages,0.30%,0.17%,0.53%,GBD 2019,Communicable Diseases
+Global,1990,TBC,Tuberculosis,Both,All ages,31.77%,28.85%,34.74%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,TBC,Tuberculosis,Both,All ages,36.49%,32.51%,40.62%,GBD 1990,Communicable Diseases
+Global,1991,TBC,Tuberculosis,Both,All ages,31.48%,28.56%,34.46%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,TBC,Tuberculosis,Both,All ages,36.46%,32.45%,40.57%,GBD 1991,Communicable Diseases
+Global,1992,TBC,Tuberculosis,Both,All ages,31.21%,28.30%,34.19%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,TBC,Tuberculosis,Both,All ages,36.43%,32.44%,40.52%,GBD 1992,Communicable Diseases
+Global,1993,TBC,Tuberculosis,Both,All ages,30.98%,28.09%,33.94%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,TBC,Tuberculosis,Both,All ages,36.42%,32.40%,40.45%,GBD 1993,Communicable Diseases
+Global,1994,TBC,Tuberculosis,Both,All ages,30.79%,27.90%,33.72%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,TBC,Tuberculosis,Both,All ages,36.42%,32.43%,40.40%,GBD 1994,Communicable Diseases
+Global,1995,TBC,Tuberculosis,Both,All ages,30.64%,27.76%,33.58%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,TBC,Tuberculosis,Both,All ages,36.42%,32.41%,40.34%,GBD 1995,Communicable Diseases
+Global,1996,TBC,Tuberculosis,Both,All ages,30.55%,27.69%,33.47%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,TBC,Tuberculosis,Both,All ages,36.44%,32.43%,40.42%,GBD 1996,Communicable Diseases
+Global,1997,TBC,Tuberculosis,Both,All ages,30.50%,27.70%,33.37%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,TBC,Tuberculosis,Both,All ages,36.49%,32.49%,40.47%,GBD 1997,Communicable Diseases
+Global,1998,TBC,Tuberculosis,Both,All ages,30.45%,27.74%,33.27%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,TBC,Tuberculosis,Both,All ages,36.54%,32.62%,40.38%,GBD 1998,Communicable Diseases
+Global,1999,TBC,Tuberculosis,Both,All ages,30.38%,27.74%,33.13%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,TBC,Tuberculosis,Both,All ages,36.59%,32.66%,40.37%,GBD 1999,Communicable Diseases
+Global,2000,TBC,Tuberculosis,Both,All ages,30.25%,27.63%,32.99%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,TBC,Tuberculosis,Both,All ages,36.63%,32.70%,40.41%,GBD 2000,Communicable Diseases
+Global,2001,TBC,Tuberculosis,Both,All ages,30.00%,27.40%,32.76%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,TBC,Tuberculosis,Both,All ages,36.65%,32.71%,40.42%,GBD 2001,Communicable Diseases
+Global,2002,TBC,Tuberculosis,Both,All ages,29.66%,27.12%,32.38%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,TBC,Tuberculosis,Both,All ages,36.68%,32.74%,40.46%,GBD 2002,Communicable Diseases
+Global,2003,TBC,Tuberculosis,Both,All ages,29.27%,26.71%,31.93%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,TBC,Tuberculosis,Both,All ages,36.71%,32.75%,40.47%,GBD 2003,Communicable Diseases
+Global,2004,TBC,Tuberculosis,Both,All ages,28.87%,26.36%,31.51%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,TBC,Tuberculosis,Both,All ages,36.73%,32.77%,40.43%,GBD 2004,Communicable Diseases
+Global,2005,TBC,Tuberculosis,Both,All ages,28.51%,26.03%,31.15%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,TBC,Tuberculosis,Both,All ages,36.72%,32.77%,40.38%,GBD 2005,Communicable Diseases
+Global,2006,TBC,Tuberculosis,Both,All ages,28.08%,25.65%,30.70%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,TBC,Tuberculosis,Both,All ages,36.68%,32.76%,40.36%,GBD 2006,Communicable Diseases
+Global,2007,TBC,Tuberculosis,Both,All ages,27.54%,25.12%,30.15%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,TBC,Tuberculosis,Both,All ages,36.61%,32.73%,40.33%,GBD 2007,Communicable Diseases
+Global,2008,TBC,Tuberculosis,Both,All ages,26.99%,24.57%,29.56%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,TBC,Tuberculosis,Both,All ages,36.53%,32.69%,40.27%,GBD 2008,Communicable Diseases
+Global,2009,TBC,Tuberculosis,Both,All ages,26.51%,24.10%,29.10%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,TBC,Tuberculosis,Both,All ages,36.48%,32.64%,40.24%,GBD 2009,Communicable Diseases
+Global,2010,TBC,Tuberculosis,Both,All ages,26.21%,23.80%,28.81%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,TBC,Tuberculosis,Both,All ages,36.46%,32.66%,40.25%,GBD 2010,Communicable Diseases
+Global,2011,TBC,Tuberculosis,Both,All ages,26.07%,23.67%,28.66%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,TBC,Tuberculosis,Both,All ages,36.48%,32.70%,40.27%,GBD 2011,Communicable Diseases
+Global,2012,TBC,Tuberculosis,Both,All ages,25.98%,23.58%,28.56%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,TBC,Tuberculosis,Both,All ages,36.52%,32.77%,40.34%,GBD 2012,Communicable Diseases
+Global,2013,TBC,Tuberculosis,Both,All ages,25.92%,23.50%,28.47%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,TBC,Tuberculosis,Both,All ages,36.57%,32.92%,40.38%,GBD 2013,Communicable Diseases
+Global,2014,TBC,Tuberculosis,Both,All ages,25.82%,23.41%,28.36%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,TBC,Tuberculosis,Both,All ages,36.62%,32.94%,40.47%,GBD 2014,Communicable Diseases
+Global,2015,TBC,Tuberculosis,Both,All ages,25.67%,23.27%,28.18%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,TBC,Tuberculosis,Both,All ages,36.66%,32.98%,40.52%,GBD 2015,Communicable Diseases
+Global,2016,TBC,Tuberculosis,Both,All ages,25.54%,23.18%,28.06%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,TBC,Tuberculosis,Both,All ages,36.63%,33.01%,40.44%,GBD 2016,Communicable Diseases
+Global,2017,TBC,Tuberculosis,Both,All ages,25.35%,23.02%,27.90%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,TBC,Tuberculosis,Both,All ages,36.61%,32.91%,40.45%,GBD 2017,Communicable Diseases
+Global,2018,TBC,Tuberculosis,Both,All ages,25.01%,22.70%,27.53%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,TBC,Tuberculosis,Both,All ages,36.63%,32.93%,40.48%,GBD 2018,Communicable Diseases
+Global,2019,TBC,Tuberculosis,Both,All ages,24.59%,22.36%,27.05%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,TBC,Tuberculosis,Both,All ages,36.65%,32.85%,40.56%,GBD 2019,Communicable Diseases
+Global,1990,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.73%,3.76%,5.78%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.36%,4.46%,6.31%,GBD 1990,Communicable Diseases
+Global,1991,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.75%,3.78%,5.79%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.36%,4.49%,6.29%,GBD 1991,Communicable Diseases
+Global,1992,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.78%,3.82%,5.80%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.36%,4.52%,6.26%,GBD 1992,Communicable Diseases
+Global,1993,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.79%,3.85%,5.80%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.37%,4.54%,6.26%,GBD 1993,Communicable Diseases
+Global,1994,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.81%,3.87%,5.80%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.38%,4.55%,6.24%,GBD 1994,Communicable Diseases
+Global,1995,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.81%,3.89%,5.79%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.39%,4.56%,6.24%,GBD 1995,Communicable Diseases
+Global,1996,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.80%,3.89%,5.78%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.41%,4.59%,6.28%,GBD 1996,Communicable Diseases
+Global,1997,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.77%,3.86%,5.73%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.44%,4.61%,6.33%,GBD 1997,Communicable Diseases
+Global,1998,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.72%,3.83%,5.68%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.49%,4.62%,6.40%,GBD 1998,Communicable Diseases
+Global,1999,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.69%,3.80%,5.63%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.54%,4.66%,6.47%,GBD 1999,Communicable Diseases
+Global,2000,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.67%,3.79%,5.60%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.60%,4.67%,6.56%,GBD 2000,Communicable Diseases
+Global,2001,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.67%,3.79%,5.60%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.72%,4.78%,6.72%,GBD 2001,Communicable Diseases
+Global,2002,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.68%,3.80%,5.59%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,5.93%,4.95%,6.97%,GBD 2002,Communicable Diseases
+Global,2003,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.69%,3.82%,5.60%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.18%,5.14%,7.25%,GBD 2003,Communicable Diseases
+Global,2004,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.69%,3.82%,5.59%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.41%,5.31%,7.53%,GBD 2004,Communicable Diseases
+Global,2005,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.69%,3.82%,5.58%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.59%,5.43%,7.74%,GBD 2005,Communicable Diseases
+Global,2006,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.68%,3.82%,5.58%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.73%,5.55%,7.88%,GBD 2006,Communicable Diseases
+Global,2007,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.66%,3.80%,5.56%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.89%,5.68%,8.08%,GBD 2007,Communicable Diseases
+Global,2008,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.65%,3.79%,5.55%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.05%,5.84%,8.24%,GBD 2008,Communicable Diseases
+Global,2009,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.63%,3.77%,5.53%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.16%,5.96%,8.38%,GBD 2009,Communicable Diseases
+Global,2010,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.62%,3.76%,5.52%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.21%,6.00%,8.42%,GBD 2010,Communicable Diseases
+Global,2011,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.64%,3.77%,5.55%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.20%,5.95%,8.44%,GBD 2011,Communicable Diseases
+Global,2012,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.69%,3.81%,5.62%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.14%,5.88%,8.45%,GBD 2012,Communicable Diseases
+Global,2013,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.75%,3.85%,5.70%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.08%,5.80%,8.41%,GBD 2013,Communicable Diseases
+Global,2014,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.80%,3.88%,5.77%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.02%,5.71%,8.41%,GBD 2014,Communicable Diseases
+Global,2015,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.82%,3.89%,5.81%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,7.00%,5.66%,8.43%,GBD 2015,Communicable Diseases
+Global,2016,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.78%,3.83%,5.79%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.99%,5.63%,8.41%,GBD 2016,Communicable Diseases
+Global,2017,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.74%,3.78%,5.76%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.97%,5.61%,8.38%,GBD 2017,Communicable Diseases
+Global,2018,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.74%,3.77%,5.81%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.78%,5.39%,8.21%,GBD 2018,Communicable Diseases
+Global,2019,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,4.77%,3.75%,5.91%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,URTI <5 y.o.,Upper respiratory infections,Both,<5 years,6.37%,4.99%,7.94%,GBD 2019,Communicable Diseases
+Global,1990,URTI,Upper respiratory infections,Both,All ages,3.35%,2.97%,3.78%,GBD 1990,Communicable Diseases
+Republic of Indonesia,1990,URTI,Upper respiratory infections,Both,All ages,4.09%,3.63%,4.64%,GBD 1990,Communicable Diseases
+Global,1991,URTI,Upper respiratory infections,Both,All ages,3.35%,2.98%,3.78%,GBD 1991,Communicable Diseases
+Republic of Indonesia,1991,URTI,Upper respiratory infections,Both,All ages,4.08%,3.62%,4.62%,GBD 1991,Communicable Diseases
+Global,1992,URTI,Upper respiratory infections,Both,All ages,3.35%,2.98%,3.77%,GBD 1992,Communicable Diseases
+Republic of Indonesia,1992,URTI,Upper respiratory infections,Both,All ages,4.07%,3.62%,4.60%,GBD 1992,Communicable Diseases
+Global,1993,URTI,Upper respiratory infections,Both,All ages,3.34%,2.97%,3.76%,GBD 1993,Communicable Diseases
+Republic of Indonesia,1993,URTI,Upper respiratory infections,Both,All ages,4.06%,3.61%,4.59%,GBD 1993,Communicable Diseases
+Global,1994,URTI,Upper respiratory infections,Both,All ages,3.34%,2.97%,3.75%,GBD 1994,Communicable Diseases
+Republic of Indonesia,1994,URTI,Upper respiratory infections,Both,All ages,4.05%,3.61%,4.58%,GBD 1994,Communicable Diseases
+Global,1995,URTI,Upper respiratory infections,Both,All ages,3.33%,2.96%,3.74%,GBD 1995,Communicable Diseases
+Republic of Indonesia,1995,URTI,Upper respiratory infections,Both,All ages,4.05%,3.60%,4.58%,GBD 1995,Communicable Diseases
+Global,1996,URTI,Upper respiratory infections,Both,All ages,3.32%,2.95%,3.73%,GBD 1996,Communicable Diseases
+Republic of Indonesia,1996,URTI,Upper respiratory infections,Both,All ages,4.05%,3.60%,4.59%,GBD 1996,Communicable Diseases
+Global,1997,URTI,Upper respiratory infections,Both,All ages,3.30%,2.94%,3.71%,GBD 1997,Communicable Diseases
+Republic of Indonesia,1997,URTI,Upper respiratory infections,Both,All ages,4.06%,3.61%,4.60%,GBD 1997,Communicable Diseases
+Global,1998,URTI,Upper respiratory infections,Both,All ages,3.29%,2.92%,3.70%,GBD 1998,Communicable Diseases
+Republic of Indonesia,1998,URTI,Upper respiratory infections,Both,All ages,4.08%,3.62%,4.61%,GBD 1998,Communicable Diseases
+Global,1999,URTI,Upper respiratory infections,Both,All ages,3.28%,2.91%,3.68%,GBD 1999,Communicable Diseases
+Republic of Indonesia,1999,URTI,Upper respiratory infections,Both,All ages,4.09%,3.63%,4.62%,GBD 1999,Communicable Diseases
+Global,2000,URTI,Upper respiratory infections,Both,All ages,3.27%,2.91%,3.67%,GBD 2000,Communicable Diseases
+Republic of Indonesia,2000,URTI,Upper respiratory infections,Both,All ages,4.10%,3.64%,4.64%,GBD 2000,Communicable Diseases
+Global,2001,URTI,Upper respiratory infections,Both,All ages,3.26%,2.90%,3.67%,GBD 2001,Communicable Diseases
+Republic of Indonesia,2001,URTI,Upper respiratory infections,Both,All ages,4.09%,3.63%,4.62%,GBD 2001,Communicable Diseases
+Global,2002,URTI,Upper respiratory infections,Both,All ages,3.26%,2.90%,3.66%,GBD 2002,Communicable Diseases
+Republic of Indonesia,2002,URTI,Upper respiratory infections,Both,All ages,4.06%,3.61%,4.59%,GBD 2002,Communicable Diseases
+Global,2003,URTI,Upper respiratory infections,Both,All ages,3.25%,2.90%,3.65%,GBD 2003,Communicable Diseases
+Republic of Indonesia,2003,URTI,Upper respiratory infections,Both,All ages,4.02%,3.58%,4.55%,GBD 2003,Communicable Diseases
+Global,2004,URTI,Upper respiratory infections,Both,All ages,3.25%,2.89%,3.65%,GBD 2004,Communicable Diseases
+Republic of Indonesia,2004,URTI,Upper respiratory infections,Both,All ages,3.99%,3.54%,4.50%,GBD 2004,Communicable Diseases
+Global,2005,URTI,Upper respiratory infections,Both,All ages,3.24%,2.89%,3.64%,GBD 2005,Communicable Diseases
+Republic of Indonesia,2005,URTI,Upper respiratory infections,Both,All ages,3.97%,3.52%,4.48%,GBD 2005,Communicable Diseases
+Global,2006,URTI,Upper respiratory infections,Both,All ages,3.24%,2.89%,3.63%,GBD 2006,Communicable Diseases
+Republic of Indonesia,2006,URTI,Upper respiratory infections,Both,All ages,3.96%,3.51%,4.47%,GBD 2006,Communicable Diseases
+Global,2007,URTI,Upper respiratory infections,Both,All ages,3.23%,2.88%,3.62%,GBD 2007,Communicable Diseases
+Republic of Indonesia,2007,URTI,Upper respiratory infections,Both,All ages,3.95%,3.51%,4.46%,GBD 2007,Communicable Diseases
+Global,2008,URTI,Upper respiratory infections,Both,All ages,3.22%,2.88%,3.62%,GBD 2008,Communicable Diseases
+Republic of Indonesia,2008,URTI,Upper respiratory infections,Both,All ages,3.94%,3.50%,4.45%,GBD 2008,Communicable Diseases
+Global,2009,URTI,Upper respiratory infections,Both,All ages,3.21%,2.87%,3.61%,GBD 2009,Communicable Diseases
+Republic of Indonesia,2009,URTI,Upper respiratory infections,Both,All ages,3.94%,3.50%,4.45%,GBD 2009,Communicable Diseases
+Global,2010,URTI,Upper respiratory infections,Both,All ages,3.20%,2.86%,3.60%,GBD 2010,Communicable Diseases
+Republic of Indonesia,2010,URTI,Upper respiratory infections,Both,All ages,3.93%,3.50%,4.44%,GBD 2010,Communicable Diseases
+Global,2011,URTI,Upper respiratory infections,Both,All ages,3.20%,2.86%,3.59%,GBD 2011,Communicable Diseases
+Republic of Indonesia,2011,URTI,Upper respiratory infections,Both,All ages,3.91%,3.48%,4.43%,GBD 2011,Communicable Diseases
+Global,2012,URTI,Upper respiratory infections,Both,All ages,3.20%,2.86%,3.59%,GBD 2012,Communicable Diseases
+Republic of Indonesia,2012,URTI,Upper respiratory infections,Both,All ages,3.90%,3.46%,4.42%,GBD 2012,Communicable Diseases
+Global,2013,URTI,Upper respiratory infections,Both,All ages,3.20%,2.86%,3.59%,GBD 2013,Communicable Diseases
+Republic of Indonesia,2013,URTI,Upper respiratory infections,Both,All ages,3.88%,3.44%,4.41%,GBD 2013,Communicable Diseases
+Global,2014,URTI,Upper respiratory infections,Both,All ages,3.19%,2.86%,3.58%,GBD 2014,Communicable Diseases
+Republic of Indonesia,2014,URTI,Upper respiratory infections,Both,All ages,3.87%,3.42%,4.40%,GBD 2014,Communicable Diseases
+Global,2015,URTI,Upper respiratory infections,Both,All ages,3.19%,2.86%,3.58%,GBD 2015,Communicable Diseases
+Republic of Indonesia,2015,URTI,Upper respiratory infections,Both,All ages,3.86%,3.41%,4.38%,GBD 2015,Communicable Diseases
+Global,2016,URTI,Upper respiratory infections,Both,All ages,3.18%,2.85%,3.56%,GBD 2016,Communicable Diseases
+Republic of Indonesia,2016,URTI,Upper respiratory infections,Both,All ages,3.85%,3.41%,4.37%,GBD 2016,Communicable Diseases
+Global,2017,URTI,Upper respiratory infections,Both,All ages,3.17%,2.84%,3.55%,GBD 2017,Communicable Diseases
+Republic of Indonesia,2017,URTI,Upper respiratory infections,Both,All ages,3.85%,3.41%,4.37%,GBD 2017,Communicable Diseases
+Global,2018,URTI,Upper respiratory infections,Both,All ages,3.17%,2.84%,3.55%,GBD 2018,Communicable Diseases
+Republic of Indonesia,2018,URTI,Upper respiratory infections,Both,All ages,3.88%,3.44%,4.41%,GBD 2018,Communicable Diseases
+Global,2019,URTI,Upper respiratory infections,Both,All ages,3.19%,2.85%,3.57%,GBD 2019,Communicable Diseases
+Republic of Indonesia,2019,URTI,Upper respiratory infections,Both,All ages,3.93%,3.48%,4.46%,GBD 2019,Communicable Diseases
+Global,1990,Asthma,Asthma,Both,All ages,4.40%,3.78%,5.21%,GBD 1990,Non-Communicable Diseases
+Republic of Indonesia,1990,Asthma,Asthma,Both,All ages,3.70%,3.12%,4.50%,GBD 1990,Non-Communicable Diseases
+Global,1991,Asthma,Asthma,Both,All ages,4.31%,3.72%,5.07%,GBD 1991,Non-Communicable Diseases
+Republic of Indonesia,1991,Asthma,Asthma,Both,All ages,3.69%,3.12%,4.46%,GBD 1991,Non-Communicable Diseases
+Global,1992,Asthma,Asthma,Both,All ages,4.23%,3.66%,4.95%,GBD 1992,Non-Communicable Diseases
+Republic of Indonesia,1992,Asthma,Asthma,Both,All ages,3.67%,3.12%,4.41%,GBD 1992,Non-Communicable Diseases
+Global,1993,Asthma,Asthma,Both,All ages,4.15%,3.61%,4.84%,GBD 1993,Non-Communicable Diseases
+Republic of Indonesia,1993,Asthma,Asthma,Both,All ages,3.64%,3.11%,4.37%,GBD 1993,Non-Communicable Diseases
+Global,1994,Asthma,Asthma,Both,All ages,4.08%,3.55%,4.74%,GBD 1994,Non-Communicable Diseases
+Republic of Indonesia,1994,Asthma,Asthma,Both,All ages,3.62%,3.10%,4.32%,GBD 1994,Non-Communicable Diseases
+Global,1995,Asthma,Asthma,Both,All ages,4.02%,3.51%,4.67%,GBD 1995,Non-Communicable Diseases
+Republic of Indonesia,1995,Asthma,Asthma,Both,All ages,3.59%,3.09%,4.28%,GBD 1995,Non-Communicable Diseases
+Global,1996,Asthma,Asthma,Both,All ages,3.96%,3.45%,4.60%,GBD 1996,Non-Communicable Diseases
+Republic of Indonesia,1996,Asthma,Asthma,Both,All ages,3.55%,3.06%,4.20%,GBD 1996,Non-Communicable Diseases
+Global,1997,Asthma,Asthma,Both,All ages,3.87%,3.38%,4.49%,GBD 1997,Non-Communicable Diseases
+Republic of Indonesia,1997,Asthma,Asthma,Both,All ages,3.47%,3.00%,4.11%,GBD 1997,Non-Communicable Diseases
+Global,1998,Asthma,Asthma,Both,All ages,3.77%,3.29%,4.37%,GBD 1998,Non-Communicable Diseases
+Republic of Indonesia,1998,Asthma,Asthma,Both,All ages,3.39%,2.93%,4.01%,GBD 1998,Non-Communicable Diseases
+Global,1999,Asthma,Asthma,Both,All ages,3.67%,3.21%,4.26%,GBD 1999,Non-Communicable Diseases
+Republic of Indonesia,1999,Asthma,Asthma,Both,All ages,3.33%,2.88%,3.94%,GBD 1999,Non-Communicable Diseases
+Global,2000,Asthma,Asthma,Both,All ages,3.60%,3.15%,4.18%,GBD 2000,Non-Communicable Diseases
+Republic of Indonesia,2000,Asthma,Asthma,Both,All ages,3.30%,2.86%,3.91%,GBD 2000,Non-Communicable Diseases
+Global,2001,Asthma,Asthma,Both,All ages,3.54%,3.10%,4.11%,GBD 2001,Non-Communicable Diseases
+Republic of Indonesia,2001,Asthma,Asthma,Both,All ages,3.31%,2.87%,3.92%,GBD 2001,Non-Communicable Diseases
+Global,2002,Asthma,Asthma,Both,All ages,3.48%,3.05%,4.03%,GBD 2002,Non-Communicable Diseases
+Republic of Indonesia,2002,Asthma,Asthma,Both,All ages,3.35%,2.90%,3.95%,GBD 2002,Non-Communicable Diseases
+Global,2003,Asthma,Asthma,Both,All ages,3.43%,3.00%,3.97%,GBD 2003,Non-Communicable Diseases
+Republic of Indonesia,2003,Asthma,Asthma,Both,All ages,3.39%,2.94%,4.00%,GBD 2003,Non-Communicable Diseases
+Global,2004,Asthma,Asthma,Both,All ages,3.38%,2.96%,3.92%,GBD 2004,Non-Communicable Diseases
+Republic of Indonesia,2004,Asthma,Asthma,Both,All ages,3.44%,2.98%,4.05%,GBD 2004,Non-Communicable Diseases
+Global,2005,Asthma,Asthma,Both,All ages,3.35%,2.93%,3.87%,GBD 2005,Non-Communicable Diseases
+Republic of Indonesia,2005,Asthma,Asthma,Both,All ages,3.48%,3.01%,4.08%,GBD 2005,Non-Communicable Diseases
+Global,2006,Asthma,Asthma,Both,All ages,3.33%,2.92%,3.86%,GBD 2006,Non-Communicable Diseases
+Republic of Indonesia,2006,Asthma,Asthma,Both,All ages,3.51%,3.03%,4.12%,GBD 2006,Non-Communicable Diseases
+Global,2007,Asthma,Asthma,Both,All ages,3.34%,2.93%,3.88%,GBD 2007,Non-Communicable Diseases
+Republic of Indonesia,2007,Asthma,Asthma,Both,All ages,3.55%,3.06%,4.17%,GBD 2007,Non-Communicable Diseases
+Global,2008,Asthma,Asthma,Both,All ages,3.36%,2.94%,3.90%,GBD 2008,Non-Communicable Diseases
+Republic of Indonesia,2008,Asthma,Asthma,Both,All ages,3.59%,3.08%,4.21%,GBD 2008,Non-Communicable Diseases
+Global,2009,Asthma,Asthma,Both,All ages,3.37%,2.96%,3.92%,GBD 2009,Non-Communicable Diseases
+Republic of Indonesia,2009,Asthma,Asthma,Both,All ages,3.61%,3.10%,4.24%,GBD 2009,Non-Communicable Diseases
+Global,2010,Asthma,Asthma,Both,All ages,3.38%,2.96%,3.91%,GBD 2010,Non-Communicable Diseases
+Republic of Indonesia,2010,Asthma,Asthma,Both,All ages,3.61%,3.11%,4.24%,GBD 2010,Non-Communicable Diseases
+Global,2011,Asthma,Asthma,Both,All ages,3.36%,2.94%,3.90%,GBD 2011,Non-Communicable Diseases
+Republic of Indonesia,2011,Asthma,Asthma,Both,All ages,3.58%,3.08%,4.20%,GBD 2011,Non-Communicable Diseases
+Global,2012,Asthma,Asthma,Both,All ages,3.33%,2.91%,3.87%,GBD 2012,Non-Communicable Diseases
+Republic of Indonesia,2012,Asthma,Asthma,Both,All ages,3.53%,3.03%,4.14%,GBD 2012,Non-Communicable Diseases
+Global,2013,Asthma,Asthma,Both,All ages,3.30%,2.88%,3.83%,GBD 2013,Non-Communicable Diseases
+Republic of Indonesia,2013,Asthma,Asthma,Both,All ages,3.47%,2.98%,4.07%,GBD 2013,Non-Communicable Diseases
+Global,2014,Asthma,Asthma,Both,All ages,3.28%,2.86%,3.81%,GBD 2014,Non-Communicable Diseases
+Republic of Indonesia,2014,Asthma,Asthma,Both,All ages,3.41%,2.93%,4.00%,GBD 2014,Non-Communicable Diseases
+Global,2015,Asthma,Asthma,Both,All ages,3.28%,2.85%,3.83%,GBD 2015,Non-Communicable Diseases
+Republic of Indonesia,2015,Asthma,Asthma,Both,All ages,3.38%,2.91%,3.96%,GBD 2015,Non-Communicable Diseases
+Global,2016,Asthma,Asthma,Both,All ages,3.37%,2.91%,3.96%,GBD 2016,Non-Communicable Diseases
+Republic of Indonesia,2016,Asthma,Asthma,Both,All ages,3.40%,2.91%,4.02%,GBD 2016,Non-Communicable Diseases
+Global,2017,Asthma,Asthma,Both,All ages,3.47%,2.97%,4.12%,GBD 2017,Non-Communicable Diseases
+Republic of Indonesia,2017,Asthma,Asthma,Both,All ages,3.44%,2.91%,4.09%,GBD 2017,Non-Communicable Diseases
+Global,2018,Asthma,Asthma,Both,All ages,3.50%,2.99%,4.15%,GBD 2018,Non-Communicable Diseases
+Republic of Indonesia,2018,Asthma,Asthma,Both,All ages,3.45%,2.93%,4.10%,GBD 2018,Non-Communicable Diseases
+Global,2019,Asthma,Asthma,Both,All ages,3.53%,3.01%,4.16%,GBD 2019,Non-Communicable Diseases
+Republic of Indonesia,2019,Asthma,Asthma,Both,All ages,3.47%,2.95%,4.10%,GBD 2019,Non-Communicable Diseases
+Global,1990,Cancer,Neoplasms,Both,All ages,5.76%,4.89%,6.78%,GBD 1990,Non-Communicable Diseases
+Republic of Indonesia,1990,Cancer,Neoplasms,Both,All ages,4.09%,3.30%,5.06%,GBD 1990,Non-Communicable Diseases
+Global,1991,Cancer,Neoplasms,Both,All ages,5.77%,4.90%,6.78%,GBD 1991,Non-Communicable Diseases
+Republic of Indonesia,1991,Cancer,Neoplasms,Both,All ages,4.13%,3.34%,5.11%,GBD 1991,Non-Communicable Diseases
+Global,1992,Cancer,Neoplasms,Both,All ages,5.78%,4.92%,6.78%,GBD 1992,Non-Communicable Diseases
+Republic of Indonesia,1992,Cancer,Neoplasms,Both,All ages,4.17%,3.38%,5.14%,GBD 1992,Non-Communicable Diseases
+Global,1993,Cancer,Neoplasms,Both,All ages,5.79%,4.94%,6.79%,GBD 1993,Non-Communicable Diseases
+Republic of Indonesia,1993,Cancer,Neoplasms,Both,All ages,4.21%,3.41%,5.21%,GBD 1993,Non-Communicable Diseases
+Global,1994,Cancer,Neoplasms,Both,All ages,5.80%,4.94%,6.80%,GBD 1994,Non-Communicable Diseases
+Republic of Indonesia,1994,Cancer,Neoplasms,Both,All ages,4.25%,3.45%,5.23%,GBD 1994,Non-Communicable Diseases
+Global,1995,Cancer,Neoplasms,Both,All ages,5.81%,4.96%,6.81%,GBD 1995,Non-Communicable Diseases
+Republic of Indonesia,1995,Cancer,Neoplasms,Both,All ages,4.29%,3.48%,5.30%,GBD 1995,Non-Communicable Diseases
+Global,1996,Cancer,Neoplasms,Both,All ages,5.83%,4.98%,6.82%,GBD 1996,Non-Communicable Diseases
+Republic of Indonesia,1996,Cancer,Neoplasms,Both,All ages,4.33%,3.52%,5.35%,GBD 1996,Non-Communicable Diseases
+Global,1997,Cancer,Neoplasms,Both,All ages,5.85%,5.00%,6.84%,GBD 1997,Non-Communicable Diseases
+Republic of Indonesia,1997,Cancer,Neoplasms,Both,All ages,4.38%,3.56%,5.41%,GBD 1997,Non-Communicable Diseases
+Global,1998,Cancer,Neoplasms,Both,All ages,5.87%,5.01%,6.86%,GBD 1998,Non-Communicable Diseases
+Republic of Indonesia,1998,Cancer,Neoplasms,Both,All ages,4.42%,3.58%,5.47%,GBD 1998,Non-Communicable Diseases
+Global,1999,Cancer,Neoplasms,Both,All ages,5.89%,5.04%,6.89%,GBD 1999,Non-Communicable Diseases
+Republic of Indonesia,1999,Cancer,Neoplasms,Both,All ages,4.46%,3.62%,5.51%,GBD 1999,Non-Communicable Diseases
+Global,2000,Cancer,Neoplasms,Both,All ages,5.92%,5.06%,6.92%,GBD 2000,Non-Communicable Diseases
+Republic of Indonesia,2000,Cancer,Neoplasms,Both,All ages,4.51%,3.66%,5.58%,GBD 2000,Non-Communicable Diseases
+Global,2001,Cancer,Neoplasms,Both,All ages,5.95%,5.09%,6.95%,GBD 2001,Non-Communicable Diseases
+Republic of Indonesia,2001,Cancer,Neoplasms,Both,All ages,4.55%,3.69%,5.64%,GBD 2001,Non-Communicable Diseases
+Global,2002,Cancer,Neoplasms,Both,All ages,6.00%,5.14%,7.00%,GBD 2002,Non-Communicable Diseases
+Republic of Indonesia,2002,Cancer,Neoplasms,Both,All ages,4.60%,3.73%,5.71%,GBD 2002,Non-Communicable Diseases
+Global,2003,Cancer,Neoplasms,Both,All ages,6.06%,5.19%,7.05%,GBD 2003,Non-Communicable Diseases
+Republic of Indonesia,2003,Cancer,Neoplasms,Both,All ages,4.65%,3.77%,5.78%,GBD 2003,Non-Communicable Diseases
+Global,2004,Cancer,Neoplasms,Both,All ages,6.11%,5.24%,7.09%,GBD 2004,Non-Communicable Diseases
+Republic of Indonesia,2004,Cancer,Neoplasms,Both,All ages,4.70%,3.80%,5.84%,GBD 2004,Non-Communicable Diseases
+Global,2005,Cancer,Neoplasms,Both,All ages,6.14%,5.29%,7.12%,GBD 2005,Non-Communicable Diseases
+Republic of Indonesia,2005,Cancer,Neoplasms,Both,All ages,4.75%,3.83%,5.89%,GBD 2005,Non-Communicable Diseases
+Global,2006,Cancer,Neoplasms,Both,All ages,6.16%,5.32%,7.13%,GBD 2006,Non-Communicable Diseases
+Republic of Indonesia,2006,Cancer,Neoplasms,Both,All ages,4.78%,3.90%,5.90%,GBD 2006,Non-Communicable Diseases
+Global,2007,Cancer,Neoplasms,Both,All ages,6.18%,5.35%,7.12%,GBD 2007,Non-Communicable Diseases
+Republic of Indonesia,2007,Cancer,Neoplasms,Both,All ages,4.80%,3.95%,5.86%,GBD 2007,Non-Communicable Diseases
+Global,2008,Cancer,Neoplasms,Both,All ages,6.19%,5.38%,7.12%,GBD 2008,Non-Communicable Diseases
+Republic of Indonesia,2008,Cancer,Neoplasms,Both,All ages,4.82%,4.01%,5.78%,GBD 2008,Non-Communicable Diseases
+Global,2009,Cancer,Neoplasms,Both,All ages,6.21%,5.42%,7.12%,GBD 2009,Non-Communicable Diseases
+Republic of Indonesia,2009,Cancer,Neoplasms,Both,All ages,4.84%,4.08%,5.74%,GBD 2009,Non-Communicable Diseases
+Global,2010,Cancer,Neoplasms,Both,All ages,6.24%,5.44%,7.14%,GBD 2010,Non-Communicable Diseases
+Republic of Indonesia,2010,Cancer,Neoplasms,Both,All ages,4.88%,4.11%,5.77%,GBD 2010,Non-Communicable Diseases
+Global,2011,Cancer,Neoplasms,Both,All ages,6.27%,5.46%,7.18%,GBD 2011,Non-Communicable Diseases
+Republic of Indonesia,2011,Cancer,Neoplasms,Both,All ages,4.93%,4.16%,5.82%,GBD 2011,Non-Communicable Diseases
+Global,2012,Cancer,Neoplasms,Both,All ages,6.30%,5.49%,7.22%,GBD 2012,Non-Communicable Diseases
+Republic of Indonesia,2012,Cancer,Neoplasms,Both,All ages,4.98%,4.19%,5.87%,GBD 2012,Non-Communicable Diseases
+Global,2013,Cancer,Neoplasms,Both,All ages,6.34%,5.51%,7.27%,GBD 2013,Non-Communicable Diseases
+Republic of Indonesia,2013,Cancer,Neoplasms,Both,All ages,5.03%,4.23%,5.93%,GBD 2013,Non-Communicable Diseases
+Global,2014,Cancer,Neoplasms,Both,All ages,6.37%,5.55%,7.31%,GBD 2014,Non-Communicable Diseases
+Republic of Indonesia,2014,Cancer,Neoplasms,Both,All ages,5.09%,4.29%,6.02%,GBD 2014,Non-Communicable Diseases
+Global,2015,Cancer,Neoplasms,Both,All ages,6.41%,5.59%,7.36%,GBD 2015,Non-Communicable Diseases
+Republic of Indonesia,2015,Cancer,Neoplasms,Both,All ages,5.15%,4.33%,6.09%,GBD 2015,Non-Communicable Diseases
+Global,2016,Cancer,Neoplasms,Both,All ages,6.45%,5.60%,7.39%,GBD 2016,Non-Communicable Diseases
+Republic of Indonesia,2016,Cancer,Neoplasms,Both,All ages,5.20%,4.39%,6.15%,GBD 2016,Non-Communicable Diseases
+Global,2017,Cancer,Neoplasms,Both,All ages,6.49%,5.63%,7.44%,GBD 2017,Non-Communicable Diseases
+Republic of Indonesia,2017,Cancer,Neoplasms,Both,All ages,5.27%,4.43%,6.23%,GBD 2017,Non-Communicable Diseases
+Global,2018,Cancer,Neoplasms,Both,All ages,6.51%,5.64%,7.50%,GBD 2018,Non-Communicable Diseases
+Republic of Indonesia,2018,Cancer,Neoplasms,Both,All ages,5.34%,4.50%,6.33%,GBD 2018,Non-Communicable Diseases
+Global,2019,Cancer,Neoplasms,Both,All ages,6.52%,5.61%,7.55%,GBD 2019,Non-Communicable Diseases
+Republic of Indonesia,2019,Cancer,Neoplasms,Both,All ages,5.41%,4.56%,6.39%,GBD 2019,Non-Communicable Diseases
+Global,1990,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.26%,4.99%,5.53%,GBD 1990,Non-Communicable Diseases
+Republic of Indonesia,1990,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.25%,3.06%,3.44%,GBD 1990,Non-Communicable Diseases
+Global,1991,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.27%,5.00%,5.53%,GBD 1991,Non-Communicable Diseases
+Republic of Indonesia,1991,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.30%,3.11%,3.50%,GBD 1991,Non-Communicable Diseases
+Global,1992,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.28%,5.02%,5.54%,GBD 1992,Non-Communicable Diseases
+Republic of Indonesia,1992,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.36%,3.17%,3.56%,GBD 1992,Non-Communicable Diseases
+Global,1993,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.29%,5.03%,5.56%,GBD 1993,Non-Communicable Diseases
+Republic of Indonesia,1993,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.42%,3.23%,3.61%,GBD 1993,Non-Communicable Diseases
+Global,1994,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.31%,5.05%,5.58%,GBD 1994,Non-Communicable Diseases
+Republic of Indonesia,1994,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.47%,3.28%,3.67%,GBD 1994,Non-Communicable Diseases
+Global,1995,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.34%,5.08%,5.60%,GBD 1995,Non-Communicable Diseases
+Republic of Indonesia,1995,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.53%,3.33%,3.73%,GBD 1995,Non-Communicable Diseases
+Global,1996,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.37%,5.11%,5.64%,GBD 1996,Non-Communicable Diseases
+Republic of Indonesia,1996,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.59%,3.39%,3.80%,GBD 1996,Non-Communicable Diseases
+Global,1997,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.41%,5.14%,5.68%,GBD 1997,Non-Communicable Diseases
+Republic of Indonesia,1997,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.65%,3.45%,3.86%,GBD 1997,Non-Communicable Diseases
+Global,1998,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.46%,5.19%,5.73%,GBD 1998,Non-Communicable Diseases
+Republic of Indonesia,1998,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.71%,3.51%,3.93%,GBD 1998,Non-Communicable Diseases
+Global,1999,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.51%,5.23%,5.78%,GBD 1999,Non-Communicable Diseases
+Republic of Indonesia,1999,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.78%,3.57%,4.00%,GBD 1999,Non-Communicable Diseases
+Global,2000,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.55%,5.27%,5.83%,GBD 2000,Non-Communicable Diseases
+Republic of Indonesia,2000,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.84%,3.62%,4.06%,GBD 2000,Non-Communicable Diseases
+Global,2001,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.60%,5.32%,5.88%,GBD 2001,Non-Communicable Diseases
+Republic of Indonesia,2001,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.90%,3.68%,4.13%,GBD 2001,Non-Communicable Diseases
+Global,2002,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.65%,5.37%,5.93%,GBD 2002,Non-Communicable Diseases
+Republic of Indonesia,2002,Cardiovascular disease,Cardiovascular diseases,Both,All ages,3.96%,3.74%,4.20%,GBD 2002,Non-Communicable Diseases
+Global,2003,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.70%,5.42%,5.98%,GBD 2003,Non-Communicable Diseases
+Republic of Indonesia,2003,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.03%,3.81%,4.27%,GBD 2003,Non-Communicable Diseases
+Global,2004,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.75%,5.47%,6.03%,GBD 2004,Non-Communicable Diseases
+Republic of Indonesia,2004,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.10%,3.87%,4.33%,GBD 2004,Non-Communicable Diseases
+Global,2005,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.81%,5.53%,6.08%,GBD 2005,Non-Communicable Diseases
+Republic of Indonesia,2005,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.16%,3.93%,4.39%,GBD 2005,Non-Communicable Diseases
+Global,2006,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.87%,5.59%,6.15%,GBD 2006,Non-Communicable Diseases
+Republic of Indonesia,2006,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.22%,3.99%,4.46%,GBD 2006,Non-Communicable Diseases
+Global,2007,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.93%,5.65%,6.23%,GBD 2007,Non-Communicable Diseases
+Republic of Indonesia,2007,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.29%,4.05%,4.54%,GBD 2007,Non-Communicable Diseases
+Global,2008,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.00%,5.71%,6.30%,GBD 2008,Non-Communicable Diseases
+Republic of Indonesia,2008,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.36%,4.12%,4.62%,GBD 2008,Non-Communicable Diseases
+Global,2009,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.08%,5.78%,6.38%,GBD 2009,Non-Communicable Diseases
+Republic of Indonesia,2009,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.43%,4.18%,4.69%,GBD 2009,Non-Communicable Diseases
+Global,2010,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.16%,5.86%,6.46%,GBD 2010,Non-Communicable Diseases
+Republic of Indonesia,2010,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.50%,4.24%,4.77%,GBD 2010,Non-Communicable Diseases
+Global,2011,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.24%,5.94%,6.55%,GBD 2011,Non-Communicable Diseases
+Republic of Indonesia,2011,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.57%,4.32%,4.85%,GBD 2011,Non-Communicable Diseases
+Global,2012,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.33%,6.02%,6.64%,GBD 2012,Non-Communicable Diseases
+Republic of Indonesia,2012,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.64%,4.38%,4.92%,GBD 2012,Non-Communicable Diseases
+Global,2013,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.42%,6.11%,6.73%,GBD 2013,Non-Communicable Diseases
+Republic of Indonesia,2013,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.72%,4.46%,5.00%,GBD 2013,Non-Communicable Diseases
+Global,2014,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.51%,6.20%,6.83%,GBD 2014,Non-Communicable Diseases
+Republic of Indonesia,2014,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.80%,4.54%,5.08%,GBD 2014,Non-Communicable Diseases
+Global,2015,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.60%,6.29%,6.93%,GBD 2015,Non-Communicable Diseases
+Republic of Indonesia,2015,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.89%,4.62%,5.17%,GBD 2015,Non-Communicable Diseases
+Global,2016,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.71%,6.39%,7.04%,GBD 2016,Non-Communicable Diseases
+Republic of Indonesia,2016,Cardiovascular disease,Cardiovascular diseases,Both,All ages,4.99%,4.71%,5.29%,GBD 2016,Non-Communicable Diseases
+Global,2017,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.82%,6.48%,7.17%,GBD 2017,Non-Communicable Diseases
+Republic of Indonesia,2017,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.08%,4.79%,5.40%,GBD 2017,Non-Communicable Diseases
+Global,2018,Cardiovascular disease,Cardiovascular diseases,Both,All ages,6.93%,6.58%,7.28%,GBD 2018,Non-Communicable Diseases
+Republic of Indonesia,2018,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.19%,4.89%,5.52%,GBD 2018,Non-Communicable Diseases
+Global,2019,Cardiovascular disease,Cardiovascular diseases,Both,All ages,7.03%,6.67%,7.40%,GBD 2019,Non-Communicable Diseases
+Republic of Indonesia,2019,Cardiovascular disease,Cardiovascular diseases,Both,All ages,5.31%,5.00%,5.64%,GBD 2019,Non-Communicable Diseases
+Global,1990,CKD,Chronic kidney disease,Both,All ages,6.62%,6.13%,7.10%,GBD 1990,Non-Communicable Diseases
+Republic of Indonesia,1990,CKD,Chronic kidney disease,Both,All ages,6.71%,6.15%,7.31%,GBD 1990,Non-Communicable Diseases
+Global,1991,CKD,Chronic kidney disease,Both,All ages,6.69%,6.20%,7.18%,GBD 1991,Non-Communicable Diseases
+Republic of Indonesia,1991,CKD,Chronic kidney disease,Both,All ages,6.83%,6.25%,7.43%,GBD 1991,Non-Communicable Diseases
+Global,1992,CKD,Chronic kidney disease,Both,All ages,6.77%,6.26%,7.25%,GBD 1992,Non-Communicable Diseases
+Republic of Indonesia,1992,CKD,Chronic kidney disease,Both,All ages,6.94%,6.36%,7.55%,GBD 1992,Non-Communicable Diseases
+Global,1993,CKD,Chronic kidney disease,Both,All ages,6.84%,6.32%,7.33%,GBD 1993,Non-Communicable Diseases
+Republic of Indonesia,1993,CKD,Chronic kidney disease,Both,All ages,7.05%,6.47%,7.67%,GBD 1993,Non-Communicable Diseases
+Global,1994,CKD,Chronic kidney disease,Both,All ages,6.91%,6.39%,7.41%,GBD 1994,Non-Communicable Diseases
+Republic of Indonesia,1994,CKD,Chronic kidney disease,Both,All ages,7.16%,6.57%,7.79%,GBD 1994,Non-Communicable Diseases
+Global,1995,CKD,Chronic kidney disease,Both,All ages,6.98%,6.45%,7.49%,GBD 1995,Non-Communicable Diseases
+Republic of Indonesia,1995,CKD,Chronic kidney disease,Both,All ages,7.26%,6.66%,7.90%,GBD 1995,Non-Communicable Diseases
+Global,1996,CKD,Chronic kidney disease,Both,All ages,7.05%,6.53%,7.57%,GBD 1996,Non-Communicable Diseases
+Republic of Indonesia,1996,CKD,Chronic kidney disease,Both,All ages,7.37%,6.77%,8.01%,GBD 1996,Non-Communicable Diseases
+Global,1997,CKD,Chronic kidney disease,Both,All ages,7.13%,6.60%,7.65%,GBD 1997,Non-Communicable Diseases
+Republic of Indonesia,1997,CKD,Chronic kidney disease,Both,All ages,7.47%,6.86%,8.13%,GBD 1997,Non-Communicable Diseases
+Global,1998,CKD,Chronic kidney disease,Both,All ages,7.22%,6.68%,7.73%,GBD 1998,Non-Communicable Diseases
+Republic of Indonesia,1998,CKD,Chronic kidney disease,Both,All ages,7.58%,6.97%,8.24%,GBD 1998,Non-Communicable Diseases
+Global,1999,CKD,Chronic kidney disease,Both,All ages,7.30%,6.76%,7.82%,GBD 1999,Non-Communicable Diseases
+Republic of Indonesia,1999,CKD,Chronic kidney disease,Both,All ages,7.68%,7.06%,8.36%,GBD 1999,Non-Communicable Diseases
+Global,2000,CKD,Chronic kidney disease,Both,All ages,7.38%,6.84%,7.91%,GBD 2000,Non-Communicable Diseases
+Republic of Indonesia,2000,CKD,Chronic kidney disease,Both,All ages,7.79%,7.15%,8.47%,GBD 2000,Non-Communicable Diseases
+Global,2001,CKD,Chronic kidney disease,Both,All ages,7.47%,6.93%,8.00%,GBD 2001,Non-Communicable Diseases
+Republic of Indonesia,2001,CKD,Chronic kidney disease,Both,All ages,7.90%,7.24%,8.59%,GBD 2001,Non-Communicable Diseases
+Global,2002,CKD,Chronic kidney disease,Both,All ages,7.56%,7.01%,8.09%,GBD 2002,Non-Communicable Diseases
+Republic of Indonesia,2002,CKD,Chronic kidney disease,Both,All ages,8.02%,7.35%,8.72%,GBD 2002,Non-Communicable Diseases
+Global,2003,CKD,Chronic kidney disease,Both,All ages,7.65%,7.10%,8.19%,GBD 2003,Non-Communicable Diseases
+Republic of Indonesia,2003,CKD,Chronic kidney disease,Both,All ages,8.15%,7.47%,8.86%,GBD 2003,Non-Communicable Diseases
+Global,2004,CKD,Chronic kidney disease,Both,All ages,7.74%,7.19%,8.28%,GBD 2004,Non-Communicable Diseases
+Republic of Indonesia,2004,CKD,Chronic kidney disease,Both,All ages,8.28%,7.59%,9.00%,GBD 2004,Non-Communicable Diseases
+Global,2005,CKD,Chronic kidney disease,Both,All ages,7.84%,7.28%,8.38%,GBD 2005,Non-Communicable Diseases
+Republic of Indonesia,2005,CKD,Chronic kidney disease,Both,All ages,8.40%,7.69%,9.12%,GBD 2005,Non-Communicable Diseases
+Global,2006,CKD,Chronic kidney disease,Both,All ages,7.93%,7.37%,8.47%,GBD 2006,Non-Communicable Diseases
+Republic of Indonesia,2006,CKD,Chronic kidney disease,Both,All ages,8.51%,7.79%,9.25%,GBD 2006,Non-Communicable Diseases
+Global,2007,CKD,Chronic kidney disease,Both,All ages,8.03%,7.46%,8.57%,GBD 2007,Non-Communicable Diseases
+Republic of Indonesia,2007,CKD,Chronic kidney disease,Both,All ages,8.62%,7.90%,9.37%,GBD 2007,Non-Communicable Diseases
+Global,2008,CKD,Chronic kidney disease,Both,All ages,8.13%,7.55%,8.67%,GBD 2008,Non-Communicable Diseases
+Republic of Indonesia,2008,CKD,Chronic kidney disease,Both,All ages,8.74%,8.01%,9.49%,GBD 2008,Non-Communicable Diseases
+Global,2009,CKD,Chronic kidney disease,Both,All ages,8.23%,7.65%,8.77%,GBD 2009,Non-Communicable Diseases
+Republic of Indonesia,2009,CKD,Chronic kidney disease,Both,All ages,8.86%,8.12%,9.61%,GBD 2009,Non-Communicable Diseases
+Global,2010,CKD,Chronic kidney disease,Both,All ages,8.33%,7.75%,8.87%,GBD 2010,Non-Communicable Diseases
+Republic of Indonesia,2010,CKD,Chronic kidney disease,Both,All ages,8.98%,8.23%,9.74%,GBD 2010,Non-Communicable Diseases
+Global,2011,CKD,Chronic kidney disease,Both,All ages,8.44%,7.86%,8.99%,GBD 2011,Non-Communicable Diseases
+Republic of Indonesia,2011,CKD,Chronic kidney disease,Both,All ages,9.11%,8.36%,9.88%,GBD 2011,Non-Communicable Diseases
+Global,2012,CKD,Chronic kidney disease,Both,All ages,8.57%,7.98%,9.12%,GBD 2012,Non-Communicable Diseases
+Republic of Indonesia,2012,CKD,Chronic kidney disease,Both,All ages,9.24%,8.48%,10.02%,GBD 2012,Non-Communicable Diseases
+Global,2013,CKD,Chronic kidney disease,Both,All ages,8.70%,8.11%,9.26%,GBD 2013,Non-Communicable Diseases
+Republic of Indonesia,2013,CKD,Chronic kidney disease,Both,All ages,9.39%,8.62%,10.18%,GBD 2013,Non-Communicable Diseases
+Global,2014,CKD,Chronic kidney disease,Both,All ages,8.83%,8.23%,9.40%,GBD 2014,Non-Communicable Diseases
+Republic of Indonesia,2014,CKD,Chronic kidney disease,Both,All ages,9.54%,8.75%,10.34%,GBD 2014,Non-Communicable Diseases
+Global,2015,CKD,Chronic kidney disease,Both,All ages,8.95%,8.34%,9.52%,GBD 2015,Non-Communicable Diseases
+Republic of Indonesia,2015,CKD,Chronic kidney disease,Both,All ages,9.68%,8.89%,10.50%,GBD 2015,Non-Communicable Diseases
+Global,2016,CKD,Chronic kidney disease,Both,All ages,9.06%,8.45%,9.63%,GBD 2016,Non-Communicable Diseases
+Republic of Indonesia,2016,CKD,Chronic kidney disease,Both,All ages,9.82%,9.02%,10.64%,GBD 2016,Non-Communicable Diseases
+Global,2017,CKD,Chronic kidney disease,Both,All ages,9.17%,8.55%,9.74%,GBD 2017,Non-Communicable Diseases
+Republic of Indonesia,2017,CKD,Chronic kidney disease,Both,All ages,9.97%,9.16%,10.79%,GBD 2017,Non-Communicable Diseases
+Global,2018,CKD,Chronic kidney disease,Both,All ages,9.27%,8.65%,9.85%,GBD 2018,Non-Communicable Diseases
+Republic of Indonesia,2018,CKD,Chronic kidney disease,Both,All ages,10.14%,9.33%,10.98%,GBD 2018,Non-Communicable Diseases
+Global,2019,CKD,Chronic kidney disease,Both,All ages,9.37%,8.74%,9.97%,GBD 2019,Non-Communicable Diseases
+Republic of Indonesia,2019,CKD,Chronic kidney disease,Both,All ages,10.34%,9.54%,11.18%,GBD 2019,Non-Communicable Diseases
+Global,1990,DM,Diabetes mellitus,Both,All ages,3.08%,2.83%,3.35%,GBD 1990,Non-Communicable Diseases
+Republic of Indonesia,1990,DM,Diabetes mellitus,Both,All ages,1.69%,1.53%,1.86%,GBD 1990,Non-Communicable Diseases
+Global,1991,DM,Diabetes mellitus,Both,All ages,3.13%,2.88%,3.40%,GBD 1991,Non-Communicable Diseases
+Republic of Indonesia,1991,DM,Diabetes mellitus,Both,All ages,1.72%,1.56%,1.89%,GBD 1991,Non-Communicable Diseases
+Global,1992,DM,Diabetes mellitus,Both,All ages,3.19%,2.94%,3.45%,GBD 1992,Non-Communicable Diseases
+Republic of Indonesia,1992,DM,Diabetes mellitus,Both,All ages,1.76%,1.60%,1.93%,GBD 1992,Non-Communicable Diseases
+Global,1993,DM,Diabetes mellitus,Both,All ages,3.24%,2.99%,3.50%,GBD 1993,Non-Communicable Diseases
+Republic of Indonesia,1993,DM,Diabetes mellitus,Both,All ages,1.80%,1.64%,1.98%,GBD 1993,Non-Communicable Diseases
+Global,1994,DM,Diabetes mellitus,Both,All ages,3.30%,3.05%,3.56%,GBD 1994,Non-Communicable Diseases
+Republic of Indonesia,1994,DM,Diabetes mellitus,Both,All ages,1.85%,1.69%,2.03%,GBD 1994,Non-Communicable Diseases
+Global,1995,DM,Diabetes mellitus,Both,All ages,3.35%,3.10%,3.60%,GBD 1995,Non-Communicable Diseases
+Republic of Indonesia,1995,DM,Diabetes mellitus,Both,All ages,1.91%,1.74%,2.08%,GBD 1995,Non-Communicable Diseases
+Global,1996,DM,Diabetes mellitus,Both,All ages,3.40%,3.15%,3.66%,GBD 1996,Non-Communicable Diseases
+Republic of Indonesia,1996,DM,Diabetes mellitus,Both,All ages,2.00%,1.83%,2.18%,GBD 1996,Non-Communicable Diseases
+Global,1997,DM,Diabetes mellitus,Both,All ages,3.47%,3.21%,3.73%,GBD 1997,Non-Communicable Diseases
+Republic of Indonesia,1997,DM,Diabetes mellitus,Both,All ages,2.14%,1.96%,2.34%,GBD 1997,Non-Communicable Diseases
+Global,1998,DM,Diabetes mellitus,Both,All ages,3.53%,3.27%,3.80%,GBD 1998,Non-Communicable Diseases
+Republic of Indonesia,1998,DM,Diabetes mellitus,Both,All ages,2.31%,2.11%,2.53%,GBD 1998,Non-Communicable Diseases
+Global,1999,DM,Diabetes mellitus,Both,All ages,3.61%,3.34%,3.88%,GBD 1999,Non-Communicable Diseases
+Republic of Indonesia,1999,DM,Diabetes mellitus,Both,All ages,2.45%,2.24%,2.69%,GBD 1999,Non-Communicable Diseases
+Global,2000,DM,Diabetes mellitus,Both,All ages,3.68%,3.41%,3.95%,GBD 2000,Non-Communicable Diseases
+Republic of Indonesia,2000,DM,Diabetes mellitus,Both,All ages,2.54%,2.32%,2.79%,GBD 2000,Non-Communicable Diseases
+Global,2001,DM,Diabetes mellitus,Both,All ages,3.78%,3.50%,4.05%,GBD 2001,Non-Communicable Diseases
+Republic of Indonesia,2001,DM,Diabetes mellitus,Both,All ages,2.53%,2.32%,2.77%,GBD 2001,Non-Communicable Diseases
+Global,2002,DM,Diabetes mellitus,Both,All ages,3.91%,3.63%,4.19%,GBD 2002,Non-Communicable Diseases
+Republic of Indonesia,2002,DM,Diabetes mellitus,Both,All ages,2.43%,2.23%,2.65%,GBD 2002,Non-Communicable Diseases
+Global,2003,DM,Diabetes mellitus,Both,All ages,4.06%,3.77%,4.35%,GBD 2003,Non-Communicable Diseases
+Republic of Indonesia,2003,DM,Diabetes mellitus,Both,All ages,2.30%,2.11%,2.50%,GBD 2003,Non-Communicable Diseases
+Global,2004,DM,Diabetes mellitus,Both,All ages,4.21%,3.92%,4.50%,GBD 2004,Non-Communicable Diseases
+Republic of Indonesia,2004,DM,Diabetes mellitus,Both,All ages,2.17%,2.01%,2.36%,GBD 2004,Non-Communicable Diseases
+Global,2005,DM,Diabetes mellitus,Both,All ages,4.33%,4.04%,4.63%,GBD 2005,Non-Communicable Diseases
+Republic of Indonesia,2005,DM,Diabetes mellitus,Both,All ages,2.13%,1.96%,2.30%,GBD 2005,Non-Communicable Diseases
+Global,2006,DM,Diabetes mellitus,Both,All ages,4.45%,4.15%,4.74%,GBD 2006,Non-Communicable Diseases
+Republic of Indonesia,2006,DM,Diabetes mellitus,Both,All ages,2.14%,1.97%,2.31%,GBD 2006,Non-Communicable Diseases
+Global,2007,DM,Diabetes mellitus,Both,All ages,4.57%,4.26%,4.87%,GBD 2007,Non-Communicable Diseases
+Republic of Indonesia,2007,DM,Diabetes mellitus,Both,All ages,2.16%,1.99%,2.33%,GBD 2007,Non-Communicable Diseases
+Global,2008,DM,Diabetes mellitus,Both,All ages,4.69%,4.38%,4.99%,GBD 2008,Non-Communicable Diseases
+Republic of Indonesia,2008,DM,Diabetes mellitus,Both,All ages,2.19%,2.01%,2.36%,GBD 2008,Non-Communicable Diseases
+Global,2009,DM,Diabetes mellitus,Both,All ages,4.81%,4.50%,5.12%,GBD 2009,Non-Communicable Diseases
+Republic of Indonesia,2009,DM,Diabetes mellitus,Both,All ages,2.23%,2.05%,2.40%,GBD 2009,Non-Communicable Diseases
+Global,2010,DM,Diabetes mellitus,Both,All ages,4.92%,4.61%,5.23%,GBD 2010,Non-Communicable Diseases
+Republic of Indonesia,2010,DM,Diabetes mellitus,Both,All ages,2.27%,2.09%,2.45%,GBD 2010,Non-Communicable Diseases
+Global,2011,DM,Diabetes mellitus,Both,All ages,5.05%,4.72%,5.37%,GBD 2011,Non-Communicable Diseases
+Republic of Indonesia,2011,DM,Diabetes mellitus,Both,All ages,2.41%,2.22%,2.60%,GBD 2011,Non-Communicable Diseases
+Global,2012,DM,Diabetes mellitus,Both,All ages,5.20%,4.86%,5.54%,GBD 2012,Non-Communicable Diseases
+Republic of Indonesia,2012,DM,Diabetes mellitus,Both,All ages,2.67%,2.46%,2.89%,GBD 2012,Non-Communicable Diseases
+Global,2013,DM,Diabetes mellitus,Both,All ages,5.36%,5.00%,5.71%,GBD 2013,Non-Communicable Diseases
+Republic of Indonesia,2013,DM,Diabetes mellitus,Both,All ages,3.00%,2.75%,3.25%,GBD 2013,Non-Communicable Diseases
+Global,2014,DM,Diabetes mellitus,Both,All ages,5.51%,5.14%,5.88%,GBD 2014,Non-Communicable Diseases
+Republic of Indonesia,2014,DM,Diabetes mellitus,Both,All ages,3.31%,3.03%,3.61%,GBD 2014,Non-Communicable Diseases
+Global,2015,DM,Diabetes mellitus,Both,All ages,5.64%,5.25%,6.02%,GBD 2015,Non-Communicable Diseases
+Republic of Indonesia,2015,DM,Diabetes mellitus,Both,All ages,3.54%,3.23%,3.88%,GBD 2015,Non-Communicable Diseases
+Global,2016,DM,Diabetes mellitus,Both,All ages,5.73%,5.32%,6.14%,GBD 2016,Non-Communicable Diseases
+Republic of Indonesia,2016,DM,Diabetes mellitus,Both,All ages,3.70%,3.37%,4.06%,GBD 2016,Non-Communicable Diseases
+Global,2017,DM,Diabetes mellitus,Both,All ages,5.83%,5.39%,6.28%,GBD 2017,Non-Communicable Diseases
+Republic of Indonesia,2017,DM,Diabetes mellitus,Both,All ages,3.85%,3.49%,4.24%,GBD 2017,Non-Communicable Diseases
+Global,2018,DM,Diabetes mellitus,Both,All ages,5.97%,5.52%,6.46%,GBD 2018,Non-Communicable Diseases
+Republic of Indonesia,2018,DM,Diabetes mellitus,Both,All ages,3.99%,3.62%,4.40%,GBD 2018,Non-Communicable Diseases
+Global,2019,DM,Diabetes mellitus,Both,All ages,6.18%,5.69%,6.69%,GBD 2019,Non-Communicable Diseases
+Republic of Indonesia,2019,DM,Diabetes mellitus,Both,All ages,4.14%,3.75%,4.56%,GBD 2019,Non-Communicable Diseases
+Global,1990,Stroke,Stroke,Both,All ages,1.06%,0.97%,1.15%,GBD 1990,Non-Communicable Diseases
+Republic of Indonesia,1990,Stroke,Stroke,Both,All ages,1.25%,1.13%,1.37%,GBD 1990,Non-Communicable Diseases
+Global,1991,Stroke,Stroke,Both,All ages,1.06%,0.97%,1.14%,GBD 1991,Non-Communicable Diseases
+Republic of Indonesia,1991,Stroke,Stroke,Both,All ages,1.26%,1.15%,1.39%,GBD 1991,Non-Communicable Diseases
+Global,1992,Stroke,Stroke,Both,All ages,1.05%,0.98%,1.13%,GBD 1992,Non-Communicable Diseases
+Republic of Indonesia,1992,Stroke,Stroke,Both,All ages,1.28%,1.16%,1.40%,GBD 1992,Non-Communicable Diseases
+Global,1993,Stroke,Stroke,Both,All ages,1.05%,0.98%,1.13%,GBD 1993,Non-Communicable Diseases
+Republic of Indonesia,1993,Stroke,Stroke,Both,All ages,1.29%,1.18%,1.41%,GBD 1993,Non-Communicable Diseases
+Global,1994,Stroke,Stroke,Both,All ages,1.05%,0.98%,1.13%,GBD 1994,Non-Communicable Diseases
+Republic of Indonesia,1994,Stroke,Stroke,Both,All ages,1.31%,1.20%,1.42%,GBD 1994,Non-Communicable Diseases
+Global,1995,Stroke,Stroke,Both,All ages,1.06%,0.99%,1.13%,GBD 1995,Non-Communicable Diseases
+Republic of Indonesia,1995,Stroke,Stroke,Both,All ages,1.32%,1.21%,1.45%,GBD 1995,Non-Communicable Diseases
+Global,1996,Stroke,Stroke,Both,All ages,1.06%,0.99%,1.14%,GBD 1996,Non-Communicable Diseases
+Republic of Indonesia,1996,Stroke,Stroke,Both,All ages,1.35%,1.23%,1.47%,GBD 1996,Non-Communicable Diseases
+Global,1997,Stroke,Stroke,Both,All ages,1.07%,1.00%,1.15%,GBD 1997,Non-Communicable Diseases
+Republic of Indonesia,1997,Stroke,Stroke,Both,All ages,1.37%,1.25%,1.49%,GBD 1997,Non-Communicable Diseases
+Global,1998,Stroke,Stroke,Both,All ages,1.08%,1.00%,1.17%,GBD 1998,Non-Communicable Diseases
+Republic of Indonesia,1998,Stroke,Stroke,Both,All ages,1.39%,1.26%,1.52%,GBD 1998,Non-Communicable Diseases
+Global,1999,Stroke,Stroke,Both,All ages,1.09%,1.01%,1.18%,GBD 1999,Non-Communicable Diseases
+Republic of Indonesia,1999,Stroke,Stroke,Both,All ages,1.41%,1.28%,1.56%,GBD 1999,Non-Communicable Diseases
+Global,2000,Stroke,Stroke,Both,All ages,1.10%,1.01%,1.20%,GBD 2000,Non-Communicable Diseases
+Republic of Indonesia,2000,Stroke,Stroke,Both,All ages,1.43%,1.30%,1.58%,GBD 2000,Non-Communicable Diseases
+Global,2001,Stroke,Stroke,Both,All ages,1.11%,1.02%,1.20%,GBD 2001,Non-Communicable Diseases
+Republic of Indonesia,2001,Stroke,Stroke,Both,All ages,1.46%,1.32%,1.60%,GBD 2001,Non-Communicable Diseases
+Global,2002,Stroke,Stroke,Both,All ages,1.11%,1.03%,1.20%,GBD 2002,Non-Communicable Diseases
+Republic of Indonesia,2002,Stroke,Stroke,Both,All ages,1.48%,1.34%,1.62%,GBD 2002,Non-Communicable Diseases
+Global,2003,Stroke,Stroke,Both,All ages,1.11%,1.03%,1.19%,GBD 2003,Non-Communicable Diseases
+Republic of Indonesia,2003,Stroke,Stroke,Both,All ages,1.50%,1.36%,1.64%,GBD 2003,Non-Communicable Diseases
+Global,2004,Stroke,Stroke,Both,All ages,1.12%,1.04%,1.19%,GBD 2004,Non-Communicable Diseases
+Republic of Indonesia,2004,Stroke,Stroke,Both,All ages,1.52%,1.39%,1.66%,GBD 2004,Non-Communicable Diseases
+Global,2005,Stroke,Stroke,Both,All ages,1.12%,1.05%,1.19%,GBD 2005,Non-Communicable Diseases
+Republic of Indonesia,2005,Stroke,Stroke,Both,All ages,1.54%,1.41%,1.68%,GBD 2005,Non-Communicable Diseases
+Global,2006,Stroke,Stroke,Both,All ages,1.13%,1.06%,1.21%,GBD 2006,Non-Communicable Diseases
+Republic of Indonesia,2006,Stroke,Stroke,Both,All ages,1.57%,1.43%,1.71%,GBD 2006,Non-Communicable Diseases
+Global,2007,Stroke,Stroke,Both,All ages,1.14%,1.07%,1.22%,GBD 2007,Non-Communicable Diseases
+Republic of Indonesia,2007,Stroke,Stroke,Both,All ages,1.59%,1.45%,1.75%,GBD 2007,Non-Communicable Diseases
+Global,2008,Stroke,Stroke,Both,All ages,1.16%,1.08%,1.24%,GBD 2008,Non-Communicable Diseases
+Republic of Indonesia,2008,Stroke,Stroke,Both,All ages,1.62%,1.47%,1.78%,GBD 2008,Non-Communicable Diseases
+Global,2009,Stroke,Stroke,Both,All ages,1.17%,1.09%,1.27%,GBD 2009,Non-Communicable Diseases
+Republic of Indonesia,2009,Stroke,Stroke,Both,All ages,1.65%,1.49%,1.82%,GBD 2009,Non-Communicable Diseases
+Global,2010,Stroke,Stroke,Both,All ages,1.19%,1.10%,1.28%,GBD 2010,Non-Communicable Diseases
+Republic of Indonesia,2010,Stroke,Stroke,Both,All ages,1.67%,1.51%,1.85%,GBD 2010,Non-Communicable Diseases
+Global,2011,Stroke,Stroke,Both,All ages,1.20%,1.11%,1.30%,GBD 2011,Non-Communicable Diseases
+Republic of Indonesia,2011,Stroke,Stroke,Both,All ages,1.70%,1.54%,1.88%,GBD 2011,Non-Communicable Diseases
+Global,2012,Stroke,Stroke,Both,All ages,1.22%,1.13%,1.31%,GBD 2012,Non-Communicable Diseases
+Republic of Indonesia,2012,Stroke,Stroke,Both,All ages,1.73%,1.56%,1.90%,GBD 2012,Non-Communicable Diseases
+Global,2013,Stroke,Stroke,Both,All ages,1.23%,1.15%,1.32%,GBD 2013,Non-Communicable Diseases
+Republic of Indonesia,2013,Stroke,Stroke,Both,All ages,1.76%,1.60%,1.93%,GBD 2013,Non-Communicable Diseases
+Global,2014,Stroke,Stroke,Both,All ages,1.25%,1.16%,1.33%,GBD 2014,Non-Communicable Diseases
+Republic of Indonesia,2014,Stroke,Stroke,Both,All ages,1.79%,1.63%,1.96%,GBD 2014,Non-Communicable Diseases
+Global,2015,Stroke,Stroke,Both,All ages,1.26%,1.18%,1.35%,GBD 2015,Non-Communicable Diseases
+Republic of Indonesia,2015,Stroke,Stroke,Both,All ages,1.82%,1.66%,1.99%,GBD 2015,Non-Communicable Diseases
+Global,2016,Stroke,Stroke,Both,All ages,1.29%,1.20%,1.39%,GBD 2016,Non-Communicable Diseases
+Republic of Indonesia,2016,Stroke,Stroke,Both,All ages,1.85%,1.67%,2.04%,GBD 2016,Non-Communicable Diseases
+Global,2017,Stroke,Stroke,Both,All ages,1.32%,1.22%,1.44%,GBD 2017,Non-Communicable Diseases
+Republic of Indonesia,2017,Stroke,Stroke,Both,All ages,1.89%,1.70%,2.10%,GBD 2017,Non-Communicable Diseases
+Global,2018,Stroke,Stroke,Both,All ages,1.35%,1.23%,1.47%,GBD 2018,Non-Communicable Diseases
+Republic of Indonesia,2018,Stroke,Stroke,Both,All ages,1.93%,1.73%,2.15%,GBD 2018,Non-Communicable Diseases
+Global,2019,Stroke,Stroke,Both,All ages,1.36%,1.25%,1.49%,GBD 2019,Non-Communicable Diseases
+Republic of Indonesia,2019,Stroke,Stroke,Both,All ages,1.97%,1.76%,2.19%,GBD 2019,Non-Communicable Diseases
