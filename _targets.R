@@ -26,10 +26,12 @@ raws <- lsData(pattern = "*csv")
 list(
 
   # List data files
-  tar_target(fpath, raws[["data"]], format = "file"),
+  tar_target(file_tbl, raws$data, format = "file"),
+  tar_target(file_ts, raws$gbd, format = "file"),
 
   # Read the data frame
-  tar_target(tbl, readData(fpath)),
+  tar_target(tbl, readData(file_tbl)),
+  tar_target(ts, readData(file_ts, is_gbd = TRUE)),
 
   # Generate documentation
   tar_quarto(readme, "README.qmd", priority = 0)
