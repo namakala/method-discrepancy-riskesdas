@@ -1,5 +1,32 @@
 # Functions to model the data
 
+splitTs <- function(ts, ratio = 0.2, recent = NULL) {
+  #' Split Time-Series
+  #'
+  #' Split the time-series into training and testing dataset based on the ratio
+  #'
+  #' @param ts A time series dta frame, will accept a `tsibble` object
+  #' @param recent A date for specifying the split
+  #' @param ratio The testing:training ratio, set to 0.2 by default
+  #' @return A list containing training and testing dataset
+
+  # Date of the most recent dataset
+  if (is.null(recent)) {
+    dates  <- ts$date %>% unique()
+    loc    <- floor(ratio * length(dates))
+    recent <- dates %>% extract2(length(.) - loc)
+  }
+
+  # Subset the dataset
+  sub_ts <- list(
+    "past"   = ts %>% subset(.$date <= recent),
+    "recent" = ts %>% subset(.$date >  recent)
+  )
+
+  return(sub_ts)
+
+}
+
 genModelForm <- function(varname) {
   #' Generate Model Formulas
   #'
