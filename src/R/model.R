@@ -36,11 +36,11 @@ genModelForm <- function(varname) {
   #' @return A list of formulas
 
   forms <- list(
-    "snaive"  = "%s ~ lag(52)",
+    "snaive"  = "%s ~ lag(4)",
     "drift"   = "%s ~ drift()",
     "tslm"    = "%s ~ trend() + fourier(period = 'year', K = 2)",
-    "ets"     = "%s ~ season(period = 24)", # Max supported period is 24
-    "sarima"  = "%s ~ PDQ(period = 52)",
+    "ets"     = "%s ~ season(period = 4)",
+    "sarima"  = "%s ~ PDQ(period = 4)",
     "arimax"  = "%s ~ PDQ(0, 0, 0) + fourier(period = 'year', K = 2)",
     "prophet" = "%s ~ season(period = 'year', order = 2)"
   ) %>%
