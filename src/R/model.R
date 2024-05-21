@@ -12,15 +12,15 @@ splitTs <- function(ts, ratio = 0.2, recent = NULL) {
 
   # Date of the most recent dataset
   if (is.null(recent)) {
-    dates  <- ts$date %>% unique()
+    dates  <- ts$Year %>% unique()
     loc    <- floor(ratio * length(dates))
     recent <- dates %>% extract2(length(.) - loc)
   }
 
   # Subset the dataset
   sub_ts <- list(
-    "past"   = ts %>% subset(.$date <= recent),
-    "recent" = ts %>% subset(.$date >  recent)
+    "past"   = ts %>% subset(.$Year <= recent),
+    "recent" = ts %>% subset(.$Year >  recent)
   )
 
   return(sub_ts)
@@ -38,10 +38,9 @@ genModelForm <- function(varname) {
   forms <- list(
     "snaive"  = "%s ~ lag(4)",
     "drift"   = "%s ~ drift()",
-    "tslm"    = "%s ~ trend() + fourier(period = 'year', K = 2)",
+    "tslm"    = "%s ~ trend()",
     "ets"     = "%s ~ season(period = 4)",
     "sarima"  = "%s ~ PDQ(period = 4)",
-    "arimax"  = "%s ~ PDQ(0, 0, 0) + fourier(period = 'year', K = 2)",
     "prophet" = "%s ~ season(period = 'year', order = 2)"
   ) %>%
     lapply(\(form) sprintf(form, varname) %>% formula())
@@ -88,23 +87,25 @@ compareModel <- function(ts, y, split = NULL, ...) {
       "ETS"     = fable::ETS(forms$ets),
       "ARIMA"   = fable::ARIMA({{ y }}),
       "SARIMA"  = fable::ARIMA(forms$sarima),
-      "ARIMAX"  = fable::ARIMA(forms$arimax),
       "Prophet" = fable.prophet::prophet(forms$prophet)
     )
 
   return(model)
 }
 
-castModel <- function(mable, len = 52) {
+castModel <- function(mable, y, len = 52) {
   #' Forecast models
   #'
   #' Create a forecast from models in a mable
   #'
   #' @param mable A model table, usually the outoput of `compareModel`
+  #' @param y The fitted variable to calculate confidence intervals
   #' @param len The length of forecasted data points
   #' @return A forecast table
 
-  mod_cast <- mable %>% fabletools::forecast(h = len)
+  mod_cast <- mable %>%
+    fabletools::forecast(h = len) %>%
+    dplyr::mutate("ci" = fabletools::hilo({{ y }}, 95))
 
   return(mod_cast)
 }
@@ -135,8 +136,58 @@ evalModel <- function(mod_cast, ts) {
         "Skill"   = fabletools::skill_score(CRPS)
       )
     ) %>%
-    dplyr::arrange(group)
+    dplyr::arrange(Region, Diagnosis)
 
   return(mod_eval)
 }
 
+selectModel <- function(mod_eval) {
+  #' Select Model
+  #'
+  #' Select model based on evaluation metrics
+  #'
+  #' @param mod_eval A table containing model goodness of fit
+  #' @return A table outlining the best-fitting model
+
+  tbl <- mod_eval %>%
+    tidyr::nest(.by = c(Region, Diagnosis))
+
+  tbl_gof <- tbl %>%
+    dplyr::mutate(
+      "Model" = purrr::map(data, ~ .x$.model),
+      "Skill" = purrr::map(data, ~ .x$Skill),
+      "gof"   = purrr::map(data, ~ subset(.x, select = c(MAE:CRPS))),
+      "rank"  = purrr::map(gof,  ~ sapply(.x, rank) %>% rowSums())
+    )
+
+  best_fit <- tbl_gof %>%
+    tidyr::unnest(c(Model, Skill, gof, rank)) %>%
+    dplyr::group_by(Region, Diagnosis) %>%
+    dplyr::slice_min(rank) %>%
+    dplyr::slice_head(n = 1) %>%
+    subset(select = -data)
+
+  return(best_fit)
+}
+
+selectForecast <- function(mod_cast, best_fit) {
+  #' Select Forecast
+  #'
+  #' Select forecast from the best-fitting model.
+  #'
+  #' @param mod_cast A forecast table
+  #' @param best_fit A table outlining the best-fitting model
+  #' @return A table outlining the best-fitting forecast
+
+  best_cast <- mod_cast %>%
+    dplyr::right_join(
+      best_fit,
+      by = c(
+        "Region" = "Region",
+        "Diagnosis" = "Diagnosis",
+        ".model" = "Model"
+      )
+    )
+
+  return(best_cast)
+}

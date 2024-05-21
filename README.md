@@ -65,54 +65,77 @@ directory.
 This is the functional pipeline for conducting statistical analysis. The
 complete flow can be viewed in the following `mermaid` diagram:
 
-During startup - Warning messages: 1: Setting LC_COLLATE failed, using
-“C” 2: Setting LC_TIME failed, using “C” 3: Setting LC_MESSAGES failed,
-using “C” 4: Setting LC_MONETARY failed, using “C”
-
 ``` mermaid
 graph LR
   style Legend fill:#FFFFFF00,stroke:#000000;
   style Graph fill:#FFFFFF00,stroke:#000000;
   subgraph Legend
     direction LR
-    x2db1ec7a48f65a9b([""Outdated""]):::outdated --- xb6630624a7b3aa0f([""Dispatched""]):::dispatched
-    xb6630624a7b3aa0f([""Dispatched""]):::dispatched --- xf1522833a4d242c5([""Up to date""]):::uptodate
-    xf1522833a4d242c5([""Up to date""]):::uptodate --- xd03d7c7dd2ddda2b([""Stem""]):::none
+    xf1522833a4d242c5([""Up to date""]):::uptodate --- xb6630624a7b3aa0f([""Dispatched""]):::dispatched
+    xb6630624a7b3aa0f([""Dispatched""]):::dispatched --- xd03d7c7dd2ddda2b([""Stem""]):::none
     xd03d7c7dd2ddda2b([""Stem""]):::none --- xeb2d7cac8a1ce544>""Function""]:::none
     xeb2d7cac8a1ce544>""Function""]:::none --- xbecb13963f49e50b{{""Object""}}:::none
   end
   subgraph Graph
     direction LR
+    x9252423d64d713bd>"genColor"]:::uptodate --> xd24d44e5b9dcbfab>"setRefTable"]:::uptodate
+    x9252423d64d713bd>"genColor"]:::uptodate --> xe286972e47efcd5a>"setStripColor"]:::uptodate
+    x9252423d64d713bd>"genColor"]:::uptodate --> xb8b267aae822a938>"vizDot"]:::uptodate
+    x9252423d64d713bd>"genColor"]:::uptodate --> xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate
+    xd24d44e5b9dcbfab>"setRefTable"]:::uptodate --> xe286972e47efcd5a>"setStripColor"]:::uptodate
+    xe286972e47efcd5a>"setStripColor"]:::uptodate --> xb8b267aae822a938>"vizDot"]:::uptodate
+    xe286972e47efcd5a>"setStripColor"]:::uptodate --> xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate
+    x5cd0059b4a190559>"splitTs"]:::uptodate --> xacaa2b0b099a3bef>"compareModel"]:::uptodate
     x2cba9b87114d8cdd>"genModelForm"]:::uptodate --> xacaa2b0b099a3bef>"compareModel"]:::uptodate
-    xe58bddd751ff431b(["fpath"]):::outdated --> xb24e8ba9befc2f2c(["tbl"]):::outdated
-    x18b26034ab3a95e2>"readData"]:::uptodate --> xb24e8ba9befc2f2c(["tbl"]):::outdated
-    x3eac3c5af5491b67>"lsData"]:::uptodate --> xe58bddd751ff431b(["fpath"]):::outdated
-    xe58bddd751ff431b(["fpath"]):::outdated --> x69167921da2c5a4c(["ts"]):::outdated
-    x18b26034ab3a95e2>"readData"]:::uptodate --> x69167921da2c5a4c(["ts"]):::outdated
+    xa644072f7a1b7229>"castModel"]:::uptodate --> xee4f8d86dc7f5415(["mod_cast"]):::uptodate
+    xe177f97af32c2a84(["mod"]):::uptodate --> xee4f8d86dc7f5415(["mod_cast"]):::uptodate
+    x35b4e9316d9a0feb(["best_fit"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    x16fdcdd8569d4e24>"selectForecast"]:::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    xacaa2b0b099a3bef>"compareModel"]:::uptodate --> x310fe0d702765c29(["mod_its"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> x310fe0d702765c29(["mod_its"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> x674283d12376b53b(["plt_pacf"]):::uptodate
+    xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate --> x674283d12376b53b(["plt_pacf"]):::uptodate
+    x1f6d76ea8940cecf{{"raws"}}:::uptodate --> xb82194ad1d3356df(["file_ts"]):::uptodate
+    x1f6d76ea8940cecf{{"raws"}}:::uptodate --> x6fba182254a20175(["file_tbl"]):::uptodate
+    x0e4824291d40911d(["mod_eval"]):::uptodate --> x35b4e9316d9a0feb(["best_fit"]):::uptodate
+    x1c4ab9118e3ea071>"selectModel"]:::uptodate --> x35b4e9316d9a0feb(["best_fit"]):::uptodate
+    x7b6a434a2a79ead8>"evalModel"]:::uptodate --> x0e4824291d40911d(["mod_eval"]):::uptodate
+    xee4f8d86dc7f5415(["mod_cast"]):::uptodate --> x0e4824291d40911d(["mod_eval"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> x0e4824291d40911d(["mod_eval"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> xc590316f7a9c8a5d(["plt_acf"]):::uptodate
+    xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate --> xc590316f7a9c8a5d(["plt_acf"]):::uptodate
+    x6fba182254a20175(["file_tbl"]):::uptodate --> xb24e8ba9befc2f2c(["tbl"]):::uptodate
+    x18b26034ab3a95e2>"readData"]:::uptodate --> xb24e8ba9befc2f2c(["tbl"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> x15da876e665e6188(["plt_dot"]):::uptodate
+    xb8b267aae822a938>"vizDot"]:::uptodate --> x15da876e665e6188(["plt_dot"]):::uptodate
+    xa644072f7a1b7229>"castModel"]:::uptodate --> xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate
+    x310fe0d702765c29(["mod_its"]):::uptodate --> xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate
+    xacaa2b0b099a3bef>"compareModel"]:::uptodate --> xe177f97af32c2a84(["mod"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> xe177f97af32c2a84(["mod"]):::uptodate
+    xd7e58f14e419de9c>"subsetData"]:::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
+    xb24e8ba9befc2f2c(["tbl"]):::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
+    xb82194ad1d3356df(["file_ts"]):::uptodate --> x69167921da2c5a4c(["ts"]):::uptodate
+    x18b26034ab3a95e2>"readData"]:::uptodate --> x69167921da2c5a4c(["ts"]):::uptodate
     xc11069275cfeb620(["readme"]):::dispatched --> xc11069275cfeb620(["readme"]):::dispatched
     x07bf962581a33ad1{{"funs"}}:::uptodate --> x07bf962581a33ad1{{"funs"}}:::uptodate
     x2f12837377761a1b{{"pkgs"}}:::uptodate --> x2f12837377761a1b{{"pkgs"}}:::uptodate
-    x1f6d76ea8940cecf{{"raws"}}:::uptodate --> x1f6d76ea8940cecf{{"raws"}}:::uptodate
     x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate --> x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate
     x4d3ec24f81457d7f{{"seed"}}:::uptodate --> x4d3ec24f81457d7f{{"seed"}}:::uptodate
-    x7b6a434a2a79ead8>"evalModel"]:::uptodate --> x7b6a434a2a79ead8>"evalModel"]:::uptodate
-    xa644072f7a1b7229>"castModel"]:::uptodate --> xa644072f7a1b7229>"castModel"]:::uptodate
+    x3eac3c5af5491b67>"lsData"]:::uptodate --> x3eac3c5af5491b67>"lsData"]:::uptodate
   end
-  classDef outdated stroke:#000000,color:#000000,fill:#78B7C5;
-  classDef dispatched stroke:#000000,color:#000000,fill:#DC863B;
   classDef uptodate stroke:#000000,color:#ffffff,fill:#354823;
+  classDef dispatched stroke:#000000,color:#000000,fill:#DC863B;
   classDef none stroke:#000000,color:#000000,fill:#94a4ac;
   linkStyle 0 stroke-width:0px;
   linkStyle 1 stroke-width:0px;
   linkStyle 2 stroke-width:0px;
   linkStyle 3 stroke-width:0px;
-  linkStyle 4 stroke-width:0px;
-  linkStyle 11 stroke-width:0px;
-  linkStyle 12 stroke-width:0px;
-  linkStyle 13 stroke-width:0px;
-  linkStyle 14 stroke-width:0px;
-  linkStyle 15 stroke-width:0px;
-  linkStyle 16 stroke-width:0px;
-  linkStyle 17 stroke-width:0px;
-  linkStyle 18 stroke-width:0px;
+  linkStyle 44 stroke-width:0px;
+  linkStyle 45 stroke-width:0px;
+  linkStyle 46 stroke-width:0px;
+  linkStyle 47 stroke-width:0px;
+  linkStyle 48 stroke-width:0px;
+  linkStyle 49 stroke-width:0px;
 ```
