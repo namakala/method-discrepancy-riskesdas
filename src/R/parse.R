@@ -29,8 +29,25 @@ readData <- function(fpath, ..., is_gbd = FALSE) {
   tbl <- readr::read_csv(fpath, ...)
 
   if (is_gbd) {
-    tbl %<>% tsibble::tsibble(key = c(Region, Diagnosis), index = Year)
+    tbl %<>%
+      dplyr::filter(!grepl(x = Diagnosis, "<5 y.o.")) %>%
+      tsibble::tsibble(key = c(Region, Diagnosis), index = Year)
   }
 
   return(tbl)
+}
+
+subsetData <- function(tbl, ts) {
+  #' Subset Riskesdas Data
+  #'
+  #' Subset Riskesdas based on variables available in the GBD time-series.
+  #'
+  #' @param tbl Riskesdas data
+  #' @param ts A GBD time-series
+  #' @return A subset tidy data frame
+
+  diagnosis <- unique(ts$Diagnosis)
+  sub_tbl   <- tbl %>% subset(.$Diagnosis %in% diagnosis)
+
+  return(sub_tbl)
 }
