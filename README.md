@@ -65,6 +65,10 @@ directory.
 This is the functional pipeline for conducting statistical analysis. The
 complete flow can be viewed in the following `mermaid` diagram:
 
+During startup - Warning messages: 1: Setting LC_COLLATE failed, using
+“C” 2: Setting LC_TIME failed, using “C” 3: Setting LC_MESSAGES failed,
+using “C” 4: Setting LC_MONETARY failed, using “C”
+
 ``` mermaid
 graph LR
   style Legend fill:#FFFFFF00,stroke:#000000;
