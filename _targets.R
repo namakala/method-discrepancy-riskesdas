@@ -31,13 +31,19 @@ list(
 
   # Read the data frame
   tar_target(tbl, readData(file_tbl)),
-  tar_target(ts, readData(file_ts, is_gbd = TRUE)),
+  tar_target(ts,  readData(file_ts, is_gbd = TRUE)),
   tar_target(sub_tbl, subsetData(tbl, ts)),
 
   # Plot the GBD time series
   tar_target(plt_dot,  vizDot(ts, "Prevalence", scales = "free_y", nrow = 3)),
   tar_target(plt_acf,  vizAutocor(ts, "Prevalence", type = "ACF")),
   tar_target(plt_pacf, vizAutocor(ts, "Prevalence", type = "PACF")),
+
+  # Assess trend in the GBD time series
+  tar_target(res_trend, checkTrend(ts, "Prevalence")),
+
+  # Evaluate the difference between SKI 2023 and Riskesdas 2018
+  tar_target(res_diff, getDiff(sub_tbl)),
 
   # Apply rolling cross validation to select the best-fitting model
   tar_target(mod, compareModel(ts, Prevalence, split = list("recent" = "2015"), .init = 4, step = 1)),

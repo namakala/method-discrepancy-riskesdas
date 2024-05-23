@@ -65,9 +65,7 @@ directory.
 This is the functional pipeline for conducting statistical analysis. The
 complete flow can be viewed in the following `mermaid` diagram:
 
-During startup - Warning messages: 1: Setting LC_COLLATE failed, using
-“C” 2: Setting LC_TIME failed, using “C” 3: Setting LC_MESSAGES failed,
-using “C” 4: Setting LC_MONETARY failed, using “C”
+- The project is out-of-sync – use `renv::status()` for details.
 
 ``` mermaid
 graph LR
@@ -82,20 +80,34 @@ graph LR
   end
   subgraph Graph
     direction LR
-    x9252423d64d713bd>"genColor"]:::uptodate --> xd24d44e5b9dcbfab>"setRefTable"]:::uptodate
     x9252423d64d713bd>"genColor"]:::uptodate --> xe286972e47efcd5a>"setStripColor"]:::uptodate
     x9252423d64d713bd>"genColor"]:::uptodate --> xb8b267aae822a938>"vizDot"]:::uptodate
+    x9252423d64d713bd>"genColor"]:::uptodate --> xd24d44e5b9dcbfab>"setRefTable"]:::uptodate
     x9252423d64d713bd>"genColor"]:::uptodate --> xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate
-    xd24d44e5b9dcbfab>"setRefTable"]:::uptodate --> xe286972e47efcd5a>"setStripColor"]:::uptodate
+    x9252423d64d713bd>"genColor"]:::uptodate --> x517170a0862823a9>"vizDotAug"]:::uptodate
+    xbd46e7a6b2bc9551>"setDot"]:::uptodate --> xb8b267aae822a938>"vizDot"]:::uptodate
+    xbd46e7a6b2bc9551>"setDot"]:::uptodate --> x517170a0862823a9>"vizDotAug"]:::uptodate
+    xb5013b1c32262a9b>"setFacet"]:::uptodate --> xb8b267aae822a938>"vizDot"]:::uptodate
+    xb5013b1c32262a9b>"setFacet"]:::uptodate --> x517170a0862823a9>"vizDotAug"]:::uptodate
     xe286972e47efcd5a>"setStripColor"]:::uptodate --> xb8b267aae822a938>"vizDot"]:::uptodate
     xe286972e47efcd5a>"setStripColor"]:::uptodate --> xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate
+    xe286972e47efcd5a>"setStripColor"]:::uptodate --> x517170a0862823a9>"vizDotAug"]:::uptodate
+    xd24d44e5b9dcbfab>"setRefTable"]:::uptodate --> xe286972e47efcd5a>"setStripColor"]:::uptodate
     x5cd0059b4a190559>"splitTs"]:::uptodate --> xacaa2b0b099a3bef>"compareModel"]:::uptodate
     x2cba9b87114d8cdd>"genModelForm"]:::uptodate --> xacaa2b0b099a3bef>"compareModel"]:::uptodate
     xa644072f7a1b7229>"castModel"]:::uptodate --> xee4f8d86dc7f5415(["mod_cast"]):::uptodate
     xe177f97af32c2a84(["mod"]):::uptodate --> xee4f8d86dc7f5415(["mod_cast"]):::uptodate
+    x41ba333bb4a8eac2>"getDiff"]:::uptodate --> x97481d93fc034ba1(["res_diff"]):::uptodate
+    xace8ed3b55f17498(["sub_tbl"]):::uptodate --> x97481d93fc034ba1(["res_diff"]):::uptodate
     x35b4e9316d9a0feb(["best_fit"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
     xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
     x16fdcdd8569d4e24>"selectForecast"]:::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    xc488683e3df4e665(["ts_aug"]):::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::uptodate
+    x517170a0862823a9>"vizDotAug"]:::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::uptodate
+    x1a0b2ed0fd224eb0>"augmentModel"]:::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
+    x03f2053ede238c51(["best_cast"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
+    x310fe0d702765c29(["mod_its"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
     xacaa2b0b099a3bef>"compareModel"]:::uptodate --> x310fe0d702765c29(["mod_its"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> x310fe0d702765c29(["mod_its"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> x674283d12376b53b(["plt_pacf"]):::uptodate
@@ -117,16 +129,18 @@ graph LR
     x310fe0d702765c29(["mod_its"]):::uptodate --> xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate
     xacaa2b0b099a3bef>"compareModel"]:::uptodate --> xe177f97af32c2a84(["mod"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> xe177f97af32c2a84(["mod"]):::uptodate
+    xe777d5278e8501a6>"checkTrend"]:::uptodate --> xbdb43b025d9b1b25(["res_trend"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> xbdb43b025d9b1b25(["res_trend"]):::uptodate
     xd7e58f14e419de9c>"subsetData"]:::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
     xb24e8ba9befc2f2c(["tbl"]):::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
     xb82194ad1d3356df(["file_ts"]):::uptodate --> x69167921da2c5a4c(["ts"]):::uptodate
     x18b26034ab3a95e2>"readData"]:::uptodate --> x69167921da2c5a4c(["ts"]):::uptodate
     xc11069275cfeb620(["readme"]):::dispatched --> xc11069275cfeb620(["readme"]):::dispatched
-    x07bf962581a33ad1{{"funs"}}:::uptodate --> x07bf962581a33ad1{{"funs"}}:::uptodate
-    x2f12837377761a1b{{"pkgs"}}:::uptodate --> x2f12837377761a1b{{"pkgs"}}:::uptodate
-    x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate --> x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate
     x4d3ec24f81457d7f{{"seed"}}:::uptodate --> x4d3ec24f81457d7f{{"seed"}}:::uptodate
+    x2f12837377761a1b{{"pkgs"}}:::uptodate --> x2f12837377761a1b{{"pkgs"}}:::uptodate
+    x07bf962581a33ad1{{"funs"}}:::uptodate --> x07bf962581a33ad1{{"funs"}}:::uptodate
+    x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate --> x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate
     x3eac3c5af5491b67>"lsData"]:::uptodate --> x3eac3c5af5491b67>"lsData"]:::uptodate
   end
   classDef uptodate stroke:#000000,color:#ffffff,fill:#354823;
@@ -136,10 +150,10 @@ graph LR
   linkStyle 1 stroke-width:0px;
   linkStyle 2 stroke-width:0px;
   linkStyle 3 stroke-width:0px;
-  linkStyle 44 stroke-width:0px;
-  linkStyle 45 stroke-width:0px;
-  linkStyle 46 stroke-width:0px;
-  linkStyle 47 stroke-width:0px;
-  linkStyle 48 stroke-width:0px;
-  linkStyle 49 stroke-width:0px;
+  linkStyle 60 stroke-width:0px;
+  linkStyle 61 stroke-width:0px;
+  linkStyle 62 stroke-width:0px;
+  linkStyle 63 stroke-width:0px;
+  linkStyle 64 stroke-width:0px;
+  linkStyle 65 stroke-width:0px;
 ```
