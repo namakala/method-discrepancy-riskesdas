@@ -73,35 +73,68 @@ setStripColor <- function(ts, group) {
   return(strip_col)
 }
 
+setDot <- function(ts, y) {
+  #' Set the Dot Plot
+  #'
+  #' Set the dot position for visualization.
+  #'
+  #' @param ts A GBD time-series
+  #' @param y A metric name from the time-series data
+  #' @return A GGPlot object
+  require("ggplot2")
+  require("tsibble")
+
+  plt <- ggplot(ts, aes(x = as.numeric(Year), y = get(y), color = Region)) +
+    geom_point(alpha = 0.4, size = 0.6) +
+    geom_line(alpha = 0.2, linewidth = 0.4) +
+    labs(x = "Year", y = y) +
+    ggpubr::theme_pubclean() +
+    scale_y_continuous(labels = scales::percent) +
+    theme(
+      strip.text = element_text(size = 10),
+      axis.text  = element_text(size = 8)
+    )
+
+  return(plt)
+}
+
+setFacet <- function(..., strip_col = NULL) {
+  #' Set the Facet
+  #'
+  #' Set the facet for visualization.
+  #'
+  #' @param strip_col Configured strip colours
+  #' @inheritDotParams ggh4x::facet_wrap2
+  #' @return A facet configuration
+  require("ggh4x")
+
+  if (is.null(strip_col)) {
+    strip_col <- ggh4x::strip_vanilla()
+  }
+
+  plt_facet <- ggh4x::facet_wrap2(..., strip = strip_col)
+
+  return(plt_facet)
+}
+
 vizDot <- function(ts, y, ...) {
   #' Visualize the Dot Plot
   #'
-  #' Visualizing the data frame content as a dot plot
+  #' Visualizing the data frame content as a dot plot.
   #'
   #' @param ts A GBD time-series
   #' @param y A metric name from the time-series data
   #' @inheritDotParams ggh4x::facet_wrap2
   #' @return A GGPlot object
   require("ggplot2")
+  require("ggh4x")
   require("tsibble")
 
-  tbl       <- ts
   colors    <- genColor()
   strip_col <- setStripColor(ts, group = Diagnosis)
 
-  plt <- ggplot(tbl, aes(x = as.numeric(Year), y = get(y), color = Region)) +
-    geom_point(alpha = 0.4, size = 0.6) +
-    geom_line(alpha = 0.2, linewidth = 0.4) +
-    labs(x = "Year", y = y) +
-    ggpubr::theme_pubclean()
-
-  plt <- plt +
-    ggh4x::facet_wrap2(~Group + Diagnosis, strip = strip_col, ...) +
-    scale_y_continuous(labels = scales::percent) +
-    theme(
-      strip.text = element_text(size = 10),
-      axis.text  = element_text(size = 8)
-    )
+  dot <- setDot(ts, y)
+  plt <- dot + setFacet(~Group + Diagnosis, strip_col = strip_col, ...)
 
   return(plt)
 }
@@ -171,6 +204,47 @@ vizAutocor <- function(ts, y, type = "ACF", ...) {
       strip.text = element_text(size = 10),
       axis.text  = element_text(size = 8)
     )
+
+  return(plt)
+}
+
+vizDotAug <- function(ts, y, ...) {
+  #' Visualize the Augmented Data
+  #'
+  #' Visualizing the agumented data frame content as a dot plot.
+  #'
+  #' @param ts A GBD time-series
+  #' @param y A metric name from the time-series data
+  #' @inheritDotParams ggh4x::facet_wrap2
+  #' @return A GGPlot object
+  require("ggplot2")
+  require("ggh4x")
+  require("tsibble")
+
+  colors    <- genColor()
+  strip_col <- setStripColor(ts, group = Diagnosis)
+
+  tbl_model <- ts %>%
+    tibble::tibble() %>%
+    dplyr::arrange(Region, Diagnosis, Group, Year) %>%
+    dplyr::group_by(Region, Diagnosis, Group, .model) %>%
+    dplyr::slice_head(n = 1) %>%
+    dplyr::ungroup()
+
+  dot <- setDot(ts, y)
+
+  plt <- dot +
+    geom_point(aes(y = .fitted, shape = "Fitted Value"), alpha = 0.4, size = 0.6) +
+    geom_line(aes(y = .fitted), alpha = 0.2, linewidth = 0.6, linetype = 3) +
+    geom_ribbon(aes(ymin = lo, ymax = hi, fill = Region), alpha = 0.2, linewidth = 0) +
+    ggrepel::geom_label_repel(
+      aes(label = .model, x = as.numeric(Year), y = get(y), color = Region),
+      data = tbl_model,
+      alpha = 0.8,
+      inherit.aes = FALSE
+    ) +
+    scale_shape_manual(values = c("Fitted Value" = 3), name = NULL) +
+    setFacet(~Group + Diagnosis, strip_col = strip_col, ...)
 
   return(plt)
 }
