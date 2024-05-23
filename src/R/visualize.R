@@ -73,35 +73,68 @@ setStripColor <- function(ts, group) {
   return(strip_col)
 }
 
+setDot <- function(ts, y) {
+  #' Set the Dot Plot
+  #'
+  #' Set the dot position for visualization.
+  #'
+  #' @param ts A GBD time-series
+  #' @param y A metric name from the time-series data
+  #' @return A GGPlot object
+  require("ggplot2")
+  require("tsibble")
+
+  plt <- ggplot(ts, aes(x = as.numeric(Year), y = get(y), color = Region)) +
+    geom_point(alpha = 0.4, size = 0.6) +
+    geom_line(alpha = 0.2, linewidth = 0.4) +
+    labs(x = "Year", y = y) +
+    ggpubr::theme_pubclean() +
+    scale_y_continuous(labels = scales::percent) +
+    theme(
+      strip.text = element_text(size = 10),
+      axis.text  = element_text(size = 8)
+    )
+
+  return(plt)
+}
+
+setFacet <- function(..., strip_col = NULL) {
+  #' Set the Facet
+  #'
+  #' Set the facet for visualization.
+  #'
+  #' @param strip_col Configured strip colours
+  #' @inheritDotParams ggh4x::facet_wrap2
+  #' @return A facet configuration
+  require("ggh4x")
+
+  if (is.null(strip_col)) {
+    strip_col <- ggh4x::strip_vanilla()
+  }
+
+  plt_facet <- ggh4x::facet_wrap2(..., strip = strip_col)
+
+  return(plt_facet)
+}
+
 vizDot <- function(ts, y, ...) {
   #' Visualize the Dot Plot
   #'
-  #' Visualizing the data frame content as a dot plot
+  #' Visualizing the data frame content as a dot plot.
   #'
   #' @param ts A GBD time-series
   #' @param y A metric name from the time-series data
   #' @inheritDotParams ggh4x::facet_wrap2
   #' @return A GGPlot object
   require("ggplot2")
+  require("ggh4x")
   require("tsibble")
 
-  tbl       <- ts
   colors    <- genColor()
   strip_col <- setStripColor(ts, group = Diagnosis)
 
-  plt <- ggplot(tbl, aes(x = as.numeric(Year), y = get(y), color = Region)) +
-    geom_point(alpha = 0.4, size = 0.6) +
-    geom_line(alpha = 0.2, linewidth = 0.4) +
-    labs(x = "Year", y = y) +
-    ggpubr::theme_pubclean()
-
-  plt <- plt +
-    ggh4x::facet_wrap2(~Group + Diagnosis, strip = strip_col, ...) +
-    scale_y_continuous(labels = scales::percent) +
-    theme(
-      strip.text = element_text(size = 10),
-      axis.text  = element_text(size = 8)
-    )
+  dot <- setDot(ts, y)
+  plt <- dot + setFacet(~Group + Diagnosis, strip_col = strip_col, ...)
 
   return(plt)
 }
