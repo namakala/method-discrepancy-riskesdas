@@ -175,3 +175,44 @@ vizAutocor <- function(ts, y, type = "ACF", ...) {
   return(plt)
 }
 
+vizDotAug <- function(ts, y, ...) {
+  #' Visualize the Augmented Data
+  #'
+  #' Visualizing the agumented data frame content as a dot plot.
+  #'
+  #' @param ts A GBD time-series
+  #' @param y A metric name from the time-series data
+  #' @inheritDotParams ggh4x::facet_wrap2
+  #' @return A GGPlot object
+  require("ggplot2")
+  require("ggh4x")
+  require("tsibble")
+
+  colors    <- genColor()
+  strip_col <- setStripColor(ts, group = Diagnosis)
+
+  tbl_model <- ts %>%
+    tibble::tibble() %>%
+    dplyr::arrange(Region, Diagnosis, Group, Year) %>%
+    dplyr::group_by(Region, Diagnosis, Group, .model) %>%
+    dplyr::slice_head(n = 1) %>%
+    dplyr::ungroup()
+
+  dot <- setDot(ts, y)
+
+  plt <- dot +
+    geom_point(aes(y = .fitted, shape = "Fitted Value"), alpha = 0.4, size = 0.6) +
+    geom_line(aes(y = .fitted), alpha = 0.2, linewidth = 0.6, linetype = 3) +
+    geom_ribbon(aes(ymin = lo, ymax = hi, fill = Region), alpha = 0.2, linewidth = 0) +
+    ggrepel::geom_label_repel(
+      aes(label = .model, x = as.numeric(Year), y = get(y), color = Region),
+      data = tbl_model,
+      alpha = 0.8,
+      inherit.aes = FALSE
+    ) +
+    scale_shape_manual(values = c("Fitted Value" = 3), name = NULL) +
+    setFacet(~Group + Diagnosis, strip_col = strip_col, ...)
+
+  return(plt)
+}
+

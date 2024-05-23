@@ -52,6 +52,10 @@ list(
   tar_target(best_fit, selectModel(mod_eval)),
   tar_target(best_cast, selectForecast(mod_cast_its, best_fit)),
 
+  # Augment the GBD dataset with its forecast
+  tar_target(ts_aug, augmentModel(mod_its, ts, best_cast)),
+  tar_target(plt_dot_aug, vizDotAug(ts_aug, "Prevalence", scales = "free_y", nrow = 3)),
+
   # Generate documentation
   tar_quarto(readme, "README.qmd", priority = 0)
 

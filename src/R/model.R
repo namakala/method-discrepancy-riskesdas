@@ -183,11 +183,62 @@ selectForecast <- function(mod_cast, best_fit) {
     dplyr::right_join(
       best_fit,
       by = c(
-        "Region" = "Region",
+        "Region"    = "Region",
         "Diagnosis" = "Diagnosis",
-        ".model" = "Model"
+        ".model"    = "Model"
       )
     )
 
   return(best_cast)
 }
+
+augmentModel <- function(mod, ts, best_cast) {
+  #' Augment Model
+  #'
+  #' Augment the model with previous observation and its forecast. Return only
+  #' the best-fitting model.
+  #'
+  #' @param mod A mable object
+  #' @param ts A GBD time-series
+  #' @param best_cast A table outlining the best-fitting forecast
+  #' @return A table outlining the best-fitting model augmentation
+
+  # Augment the model to its training data
+  tbl <- mod %>% fabletools::augment() %>% tibble::tibble()
+
+  # Subset to best-fitting model only
+  best_mod <- best_cast %>%
+    subset(select = c("Region", "Diagnosis", ".model")) %>%
+    unique()
+
+  groups <- subset(ts, select = c(Diagnosis, Group)) %>% unique()
+
+  sub_tbl <- tbl %>%
+    dplyr::right_join(best_mod)
+
+  # Construct the forecast table
+  tbl_cast <- best_cast %>%
+    tibble::tibble() %>%
+    dplyr::mutate("hi" = ci$upper, "lo" = ci$lower) %>%
+    subset(select = c(Region:Year, .mean, hi, lo)) %>%
+    dplyr::rename("Prevalence" = ".mean")
+
+  # Bind all relevant fields
+  best_aug <- sub_tbl %>%
+    dplyr::full_join(
+      tbl_cast,
+      by = c(
+        "Region"     = "Region",
+        "Diagnosis"  = "Diagnosis",
+        ".model"     = ".model",
+        "Prevalence" = "Prevalence",
+        "Year"       = "Year"
+      )
+    ) %>%
+    dplyr::arrange(Region, Diagnosis, Year) %>%
+    dplyr::left_join(groups) %>%
+    tsibble::tsibble(key = c(Region, Diagnosis), index = Year)
+
+  return(best_aug)
+}
+
