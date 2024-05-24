@@ -1,0 +1,16 @@
+# Executive Summary {-}
+
+- SKI 2023 and Riskesdas 2018 pose major result differences, as suggested by @tbl-diff
+- Shown in @fig-dot and @tbl-trend, the disease prevalence trends between Indonesia and Global are rather similar
+- Comparing @tbl-diff and @tbl-trend, we see that from 2018 to 2023 the trend in the national survey report does not follow GBD data
+- This difference might occur due to methodological difference between SKI 2023 and Riskesdas 2018
+- @tbl-best-fit summarized the best fitting model to forecast the GBD time-series
+- @fig-dot-aug projected the forecast from 2020 to 2023, assuming that no major changes occur in Indonesia or globally
+
+Action plan:
+
+1. Fit the national survey report differences into model forecast
+1. Evaluate two scenarios:
+   1. Projection from GBD data
+   1. Projection from national survey report
+1. Assess the mean percentage differences between two scenarios

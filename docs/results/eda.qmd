@@ -1,0 +1,93 @@
+```{r init}
+
+pkgs <- c("targets", "magrittr")
+pkgs_load <- sapply(pkgs, library, character.only = TRUE)
+
+options(digits = 3)
+
+renderTable <- function(tbl, font_size = 8) {
+  #' Render Table
+  #'
+  #' Render the table using the `flextable` package.
+  #'
+  #' @param tbl A data frame object
+  #' @return A `flextable` object
+
+  res <- flextable::flextable(tbl) |>
+    flextable::fontsize(size = font_size, part = "all") |>
+    flextable::font(fontname = "Times New Roman", part = "all") |>
+    flextable::align(align = "center", part = "all")
+
+  return(res)
+}
+
+```
+
+# Exploratory Data Analysis
+
+```{r tbl-trend}
+#| tbl-cap: The trend of disease prevalence, data was obtained from Global Burden of Disease
+
+tar_read(res_trend) |>
+  dplyr::mutate("p.value" = ifelse(p.value < 0.001, "<0.001", round(p.value, 3))) |>
+  subset(select = -method) |>
+  dplyr::arrange(Region, Group, Diagnosis) |>
+  renderTable() |>
+  flextable::align(j = c(1:3), align = "left", part = "all") |>
+  flextable::autofit()
+
+```
+
+\uselandscape
+
+```{r fig-dot}
+#| fig-cap: Dot plot of disease prevalence from Global Burden of Disease
+
+tar_read(plt_dot)
+
+```
+
+```{r fig-acf}
+#| fig-cap: Autocorrelation plot of disease prevalence overtime
+
+tar_read(plt_acf)
+
+```
+
+```{r fig-pacf}
+#| fig-cap: Partial autocorrelation plot of disease prevalence overtime
+
+tar_read(plt_pacf)
+
+```
+
+```{r tbl-diff}
+#| tbl-cap: Differences of reported prevalence between SKI 2023 and Riskesdas 2018
+
+tar_read(res_diff) |>
+  dplyr::mutate("p" = ifelse(p < 0.001, "<0.001", round(p, 3))) |>
+  subset(select = -c(Region, SD_2018, SD_2023)) |>
+  dplyr::arrange(Group, Diagnosis) |>
+  dplyr::mutate(
+    dplyr::across(dplyr::matches("^(Prev|diff|perc)"), \(x) round(x, 3) |> scales::percent())
+  ) |>
+  renderTable(font_size = 7) |>
+  flextable::set_header_labels(
+    "Prevalence_2018" = "2018",
+    "Prevalence_2023" = "2023",
+    "N_2018" = "2018",
+    "N_2023" = "2023",
+    "diff" = "Diff",
+    "perc" = "%"
+  ) |>
+  flextable::add_header_row(
+    colwidths = c(2, 2, 2, 4),
+    values    = c("", "Prevalence", "N", "Differences")
+  ) |>
+  flextable::align(j = c(1, 2), align = "left", part = "all") |>
+  flextable::autofit()
+
+```
+
+\normalpapersize
+

@@ -63,6 +63,7 @@ list(
   tar_target(plt_dot_aug, vizDotAug(ts_aug, "Prevalence", scales = "free_y", nrow = 3)),
 
   # Generate documentation
+  tar_quarto(report, "docs", profile = "report", priority = 0),
   tar_quarto(readme, "README.qmd", priority = 0)
 
 )
