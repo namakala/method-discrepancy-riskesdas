@@ -2,11 +2,13 @@ project:
   output-dir: _render/report
 
 book:
-  title: "Book Title"
-  subtitle: "Book Subtitle"
-  author: "Author Name"
+  title: "Discrepancy in Riskesdas Methods"
+  subtitle: "A comparison between SKI 2023 and Riskesdas 2018"
+  author: "Aly Lamuri"
   chapters:
     - index.qmd
+    - results/eda.qmd
+    - results/model.qmd
 
 in:
   report: true

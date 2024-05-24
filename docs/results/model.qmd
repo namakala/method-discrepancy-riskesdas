@@ -1,0 +1,60 @@
+```{r init}
+
+pkgs <- c("targets", "magrittr")
+pkgs_load <- sapply(pkgs, library, character.only = TRUE)
+
+options(digits = 3)
+
+renderTable <- function(tbl, font_size = 8) {
+  #' Render Table
+  #'
+  #' Render the table using the `flextable` package.
+  #'
+  #' @param tbl A data frame object
+  #' @return A `flextable` object
+
+  res <- flextable::flextable(tbl) |>
+    flextable::fontsize(size = font_size, part = "all") |>
+    flextable::font(fontname = "Times New Roman", part = "all") |>
+    flextable::align(align = "center", part = "all") |>
+    flextable::colformat_double(digits = 3)
+
+  return(res)
+}
+
+```
+
+# Modelling the GBD Data
+
+```{r tbl-mod-eval}
+#| tbl-cap: Evaluation metrics of all fitted models
+
+tar_read(mod_eval) |>
+  subset(select = -.type) |>
+  knitr::kable() |>
+  kableExtra::kable_styling(font_size = 7)
+
+```
+
+\uselandscape
+
+```{r tbl-best-fit}
+#| tbl-cap: The best-fitting model selected by minimizing error from the evaluation metrics
+
+tar_read(best_fit) |>
+  dplyr::mutate("Score" = round(8 / rank, 2) |> scales::percent()) |>
+  subset(select = -rank) |>
+  renderTable() |>
+  flextable::align(j = c(1:3), align = "left", part = "all") |>
+  flextable::autofit()
+
+```
+
+```{r fig-dot-aug}
+#| fig-cap: Dot plot of disease prevalence overtime, augmented with its forecast and model fitted values
+
+tar_read(plt_dot_aug)
+
+```
+
+\normalpapersize
