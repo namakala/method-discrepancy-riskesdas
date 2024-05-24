@@ -85,14 +85,15 @@ setDot <- function(ts, y) {
   require("tsibble")
 
   plt <- ggplot(ts, aes(x = as.numeric(Year), y = get(y), color = Region)) +
-    geom_point(alpha = 0.4, size = 0.6) +
-    geom_line(alpha = 0.2, linewidth = 0.4) +
+    geom_point(alpha = 0.4, size = 0.8) +
+    geom_line(alpha = 0.2, linewidth = 0.8) +
     labs(x = "Year", y = y) +
     ggpubr::theme_pubclean() +
     scale_y_continuous(labels = scales::percent) +
     theme(
       strip.text = element_text(size = 10),
-      axis.text  = element_text(size = 8)
+      axis.text  = element_text(size = 8),
+      legend.title = element_blank()
     )
 
   return(plt)
@@ -234,14 +235,15 @@ vizDotAug <- function(ts, y, ...) {
   dot <- setDot(ts, y)
 
   plt <- dot +
-    geom_point(aes(y = .fitted, shape = "Fitted Value"), alpha = 0.4, size = 0.6) +
+    geom_point(aes(y = .fitted, shape = "Fitted Value"), alpha = 0.4, size = 0.8) +
     geom_line(aes(y = .fitted), alpha = 0.2, linewidth = 0.6, linetype = 3) +
-    geom_ribbon(aes(ymin = lo, ymax = hi, fill = Region), alpha = 0.2, linewidth = 0) +
+    geom_ribbon(aes(ymin = lo, ymax = hi, fill = Region), alpha = 0.2, linewidth = 0, show.legend = FALSE) +
     ggrepel::geom_label_repel(
       aes(label = .model, x = as.numeric(Year), y = get(y), color = Region),
       data = tbl_model,
       alpha = 0.8,
-      inherit.aes = FALSE
+      inherit.aes = FALSE,
+      show.legend = FALSE
     ) +
     scale_shape_manual(values = c("Fitted Value" = 3), name = NULL) +
     setFacet(~Group + Diagnosis, strip_col = strip_col, ...)
@@ -249,3 +251,4 @@ vizDotAug <- function(ts, y, ...) {
   return(plt)
 }
 
+vizDotAug(tar_read(ts_aug), "Prevalence", scales = "free_y", nrow = 3)
