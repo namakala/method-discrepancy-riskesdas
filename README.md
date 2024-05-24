@@ -65,7 +65,15 @@ directory.
 This is the functional pipeline for conducting statistical analysis. The
 complete flow can be viewed in the following `mermaid` diagram:
 
-- The project is out-of-sync – use `renv::status()` for details.
+- The project is out-of-sync – use `renv::status()` for details. Loading
+  required package: ggplot2 Loading required package: ggh4x Loading
+  required package: tsibble
+
+Attaching package: ‘tsibble’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, union
 
 ``` mermaid
 graph LR
@@ -102,6 +110,14 @@ graph LR
     x35b4e9316d9a0feb(["best_fit"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
     xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
     x16fdcdd8569d4e24>"selectForecast"]:::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    x35b4e9316d9a0feb(["best_fit"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    x0e4824291d40911d(["mod_eval"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    xc590316f7a9c8a5d(["plt_acf"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    x15da876e665e6188(["plt_dot"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    xa96ae55b1b18d8fc(["plt_dot_aug"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    x674283d12376b53b(["plt_pacf"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    x97481d93fc034ba1(["res_diff"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
+    xbdb43b025d9b1b25(["res_trend"]):::uptodate --> xb72891f20a5b8df1(["report"]):::uptodate
     xc488683e3df4e665(["ts_aug"]):::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::uptodate
     x517170a0862823a9>"vizDotAug"]:::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::uptodate
     x1a0b2ed0fd224eb0>"augmentModel"]:::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
@@ -150,10 +166,10 @@ graph LR
   linkStyle 1 stroke-width:0px;
   linkStyle 2 stroke-width:0px;
   linkStyle 3 stroke-width:0px;
-  linkStyle 60 stroke-width:0px;
-  linkStyle 61 stroke-width:0px;
-  linkStyle 62 stroke-width:0px;
-  linkStyle 63 stroke-width:0px;
-  linkStyle 64 stroke-width:0px;
-  linkStyle 65 stroke-width:0px;
+  linkStyle 68 stroke-width:0px;
+  linkStyle 69 stroke-width:0px;
+  linkStyle 70 stroke-width:0px;
+  linkStyle 71 stroke-width:0px;
+  linkStyle 72 stroke-width:0px;
+  linkStyle 73 stroke-width:0px;
 ```
