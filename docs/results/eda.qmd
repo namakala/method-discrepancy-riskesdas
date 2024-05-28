@@ -15,7 +15,7 @@ renderTable <- function(tbl, font_size = 8) {
 
   res <- flextable::flextable(tbl) |>
     flextable::fontsize(size = font_size, part = "all") |>
-    flextable::font(fontname = "Times New Roman", part = "all") |>
+    flextable::font(fontname = "Times", part = "all") |>
     flextable::align(align = "center", part = "all")
 
   return(res)

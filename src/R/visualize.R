@@ -73,18 +73,26 @@ setStripColor <- function(ts, group) {
   return(strip_col)
 }
 
-setDot <- function(ts, y) {
+setDot <- function(ts, y, grouped = TRUE) {
   #' Set the Dot Plot
   #'
   #' Set the dot position for visualization.
   #'
   #' @param ts A GBD time-series
   #' @param y A metric name from the time-series data
+  #' @param grouped A boolean indicating whether the dataset should be grouped
+  #' by region or not
   #' @return A GGPlot object
   require("ggplot2")
   require("tsibble")
 
-  plt <- ggplot(ts, aes(x = as.numeric(Year), y = get(y), color = Region)) +
+  if (grouped) {
+    base <- ggplot(ts, aes(x = as.numeric(Year), y = get(y), color = Region))
+  } else {
+    base <- ggplot(ts, aes(x = as.numeric(Year), y = get(y)))
+  }
+
+  plt <- base +
     geom_point(alpha = 0.4, size = 0.8) +
     geom_line(alpha = 0.2, linewidth = 0.8) +
     labs(x = "Year", y = y) +
@@ -209,13 +217,15 @@ vizAutocor <- function(ts, y, type = "ACF", ...) {
   return(plt)
 }
 
-vizDotAug <- function(ts, y, ...) {
+vizDotAug <- function(ts, y, grouped = TRUE, ...) {
   #' Visualize the Augmented Data
   #'
   #' Visualizing the agumented data frame content as a dot plot.
   #'
   #' @param ts A GBD time-series
   #' @param y A metric name from the time-series data
+  #' @param grouped A boolean indicating whether the dataset should be grouped
+  #' by region or not
   #' @inheritDotParams ggh4x::facet_wrap2
   #' @return A GGPlot object
   require("ggplot2")
@@ -225,6 +235,7 @@ vizDotAug <- function(ts, y, ...) {
   colors    <- genColor()
   strip_col <- setStripColor(ts, group = Diagnosis)
 
+  # Set up the table
   tbl_model <- ts %>%
     tibble::tibble() %>%
     dplyr::arrange(Region, Diagnosis, Group, Year) %>%
@@ -232,14 +243,24 @@ vizDotAug <- function(ts, y, ...) {
     dplyr::slice_head(n = 1) %>%
     dplyr::ungroup()
 
-  dot <- setDot(ts, y)
+  # Configure aesthetic mappings
+  if (grouped) {
+    aes_ribbon <- aes(ymin = lo, ymax = hi, fill = Region)
+    aes_label  <- aes(label = .model, x = as.numeric(Year), y = get(y), color = Region)
+  } else {
+    aes_ribbon <- aes(ymin = lo, ymax = hi)
+    aes_label  <- aes(label = .model, x = as.numeric(Year), y = get(y))
+  }
+
+  # Plot the data
+  dot <- setDot(ts, y, grouped = grouped)
 
   plt <- dot +
     geom_point(aes(y = .fitted, shape = "Fitted Value"), alpha = 0.4, size = 0.8) +
     geom_line(aes(y = .fitted), alpha = 0.2, linewidth = 0.6, linetype = 3) +
-    geom_ribbon(aes(ymin = lo, ymax = hi, fill = Region), alpha = 0.2, linewidth = 0, show.legend = FALSE) +
+    geom_ribbon(aes_ribbon, alpha = 0.2, linewidth = 0, show.legend = FALSE) +
     ggrepel::geom_label_repel(
-      aes(label = .model, x = as.numeric(Year), y = get(y), color = Region),
+      aes_label,
       data = tbl_model,
       alpha = 0.8,
       inherit.aes = FALSE,
@@ -251,4 +272,43 @@ vizDotAug <- function(ts, y, ...) {
   return(plt)
 }
 
-vizDotAug(tar_read(ts_aug), "Prevalence", scales = "free_y", nrow = 3)
+vizDotDiff <- function(ts_aug, scenario, ...) {
+  #' Visualize the Dot Plot
+  #'
+  #' Visualizing the data frame content as a dot plot.
+  #'
+  #' @param ts_aug A table outlining the best-fitting model augmentation
+  #' @param scenario A tidy data frame containing counterfactual scenario
+  #' @inheritDotParams ggh4x::facet_wrap2
+  #' @return A GGPlot object
+  require("ggplot2")
+  require("ggh4x")
+  require("tsibble")
+
+  colors    <- genColor()
+  strip_col <- setStripColor(ts_aug, group = Diagnosis)
+  region    <- unique(scenario$Region)
+  plt_title <- sprintf("Relative prevalence difference between SKI 2023 and %s GBD forecast", region)
+
+  # Configure tables for plotting
+  sub_ts <- ts_aug |> dplyr::filter(Region == region)
+  sub_scenario <- scenario |> dplyr::filter(Year > 2018)
+
+  # Set the plot
+  dot <- vizDotAug(sub_ts, "Prevalence", grouped = FALSE, ...)
+
+  plt <- dot +
+    geom_point(
+      aes(x = as.numeric(Year), y = Prevalence, color = .model),
+      size  = 1,
+      alpha = 0.8,
+      shape = 15,
+      data  = sub_scenario,
+      inherit.aes = FALSE
+    ) +
+    labs(x = "") +
+    theme(legend.position = "top")
+
+  return(plt)
+}
+

@@ -1,0 +1,24 @@
+```{r init}
+
+pkgs <- c("targets", "magrittr")
+pkgs_load <- sapply(pkgs, library, character.only = TRUE)
+
+options(digits = 3)
+
+```
+
+# Projecting SKI Prevalence to the GBD Data
+
+```{r fig-scenario}
+#| fig-width: 14
+#| fig-height: 5.5
+#| fig-cap: Relative prevalence difference between projected SKI 2023 and GBD forecast
+#| fig-subcap:
+#|   - Indonesia
+#|   - Global
+
+tar_read(plt_scenario_Indonesia)
+tar_read(plt_scenario_Global)
+
+```
+
