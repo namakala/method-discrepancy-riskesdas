@@ -6,6 +6,7 @@ profile:
 
 execute:
   freeze: false
+  cache: true
 
 format:
   pdf:
