@@ -251,4 +251,43 @@ vizDotAug <- function(ts, y, ...) {
   return(plt)
 }
 
-vizDotAug(tar_read(ts_aug), "Prevalence", scales = "free_y", nrow = 3)
+vizDotDiff <- function(ts_aug, scenario, ...) {
+  #' Visualize the Dot Plot
+  #'
+  #' Visualizing the data frame content as a dot plot.
+  #'
+  #' @param ts_aug A table outlining the best-fitting model augmentation
+  #' @param scenario A tidy data frame containing counterfactual scenario
+  #' @inheritDotParams ggh4x::facet_wrap2
+  #' @return A GGPlot object
+  require("ggplot2")
+  require("ggh4x")
+  require("tsibble")
+
+  colors    <- genColor()
+  strip_col <- setStripColor(ts_aug, group = Diagnosis)
+  region    <- unique(scenario$Region)
+  plt_title <- sprintf("Relative prevalence difference between SKI 2023 and %s GBD forecast", region)
+
+  # Configure tables for plotting
+  sub_ts <- ts_aug |> dplyr::filter(Region == region)
+  sub_scenario <- scenario |> dplyr::filter(Year > 2018)
+
+  # Set the plot
+  dot <- vizDotAug(sub_ts, "Prevalence", grouped = FALSE, ...)
+
+  plt <- dot +
+    geom_point(
+      aes(x = as.numeric(Year), y = Prevalence, color = .model),
+      size  = 1,
+      alpha = 0.8,
+      shape = 15,
+      data  = sub_scenario,
+      inherit.aes = FALSE
+    ) +
+    labs(x = "") +
+    theme(legend.position = "top")
+
+  return(plt)
+}
+

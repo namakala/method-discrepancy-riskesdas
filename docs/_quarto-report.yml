@@ -9,6 +9,7 @@ book:
     - index.qmd
     - results/eda.qmd
     - results/model.qmd
+    - results/scenario.qmd
 
 in:
   report: true

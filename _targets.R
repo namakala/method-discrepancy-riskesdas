@@ -62,6 +62,14 @@ list(
   tar_target(ts_aug, augmentModel(mod_its, ts, best_cast)),
   tar_target(plt_dot_aug, vizDotAug(ts_aug, "Prevalence", scales = "free_y", nrow = 3)),
 
+  # Project relative difference to GBD dataset and visualize it
+  tar_map(
+    values = tibble::tibble("region" = c("Global", "Indonesia")),
+    unlist = FALSE,
+    tar_target(scenario, mkScenario(ts_aug, res_diff, region = region)),
+    tar_target(plt_scenario, vizDotDiff(ts_aug, scenario, scales = "free_y", nrow = 3))
+  ),
+
   # Generate documentation
   tar_quarto(report, "docs", profile = "report", priority = 0),
   tar_quarto(readme, "README.qmd", priority = 0)
