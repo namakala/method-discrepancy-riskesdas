@@ -65,7 +65,11 @@ directory.
 This is the functional pipeline for conducting statistical analysis. The
 complete flow can be viewed in the following `mermaid` diagram:
 
-- The project is out-of-sync – use `renv::status()` for details.
+renv 1.0.0 was loaded from project library, but this project is
+configured to use renv 1.0.7. - Use `renv::record("renv@1.0.0")` to
+record renv 1.0.0 in the lockfile. - Use
+`renv::restore(packages = "renv")` to install renv 1.0.7 into the
+project library.
 
 ``` mermaid
 graph LR
@@ -73,9 +77,9 @@ graph LR
   style Graph fill:#FFFFFF00,stroke:#000000;
   subgraph Legend
     direction LR
-    x2db1ec7a48f65a9b([""Outdated""]):::outdated --- xb6630624a7b3aa0f([""Dispatched""]):::dispatched
-    xb6630624a7b3aa0f([""Dispatched""]):::dispatched --- xf1522833a4d242c5([""Up to date""]):::uptodate
-    xf1522833a4d242c5([""Up to date""]):::uptodate --- xd03d7c7dd2ddda2b([""Stem""]):::none
+    xf1522833a4d242c5([""Up to date""]):::uptodate --- xb6630624a7b3aa0f([""Dispatched""]):::dispatched
+    xb6630624a7b3aa0f([""Dispatched""]):::dispatched --- x2db1ec7a48f65a9b([""Outdated""]):::outdated
+    x2db1ec7a48f65a9b([""Outdated""]):::outdated --- xd03d7c7dd2ddda2b([""Stem""]):::none
     xd03d7c7dd2ddda2b([""Stem""]):::none --- xeb2d7cac8a1ce544>""Function""]:::none
     xeb2d7cac8a1ce544>""Function""]:::none --- xbecb13963f49e50b{{""Object""}}:::none
   end
@@ -102,23 +106,22 @@ graph LR
     x2cba9b87114d8cdd>"genModelForm"]:::uptodate --> xacaa2b0b099a3bef>"compareModel"]:::uptodate
     xacaa2b0b099a3bef>"compareModel"]:::uptodate --> x310fe0d702765c29(["mod_its"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> x310fe0d702765c29(["mod_its"]):::uptodate
-    x35b4e9316d9a0feb(["best_fit"]):::dispatched --> x03f2053ede238c51(["best_cast"]):::outdated
-    xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::outdated
-    x16fdcdd8569d4e24>"selectForecast"]:::uptodate --> x03f2053ede238c51(["best_cast"]):::outdated
-    x92dbc31cbd959c37>"mkScenario"]:::uptodate --> x7bd68e27376d8407(["scenario_Global<br>Global"]):::outdated
-    x97481d93fc034ba1(["res_diff"]):::uptodate --> x7bd68e27376d8407(["scenario_Global<br>Global"]):::outdated
-    xc488683e3df4e665(["ts_aug"]):::outdated --> x7bd68e27376d8407(["scenario_Global<br>Global"]):::outdated
+    x35b4e9316d9a0feb(["best_fit"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    x16fdcdd8569d4e24>"selectForecast"]:::uptodate --> x03f2053ede238c51(["best_cast"]):::uptodate
+    x92dbc31cbd959c37>"mkScenario"]:::uptodate --> x7bd68e27376d8407(["scenario_Global<br>Global"]):::dispatched
+    x97481d93fc034ba1(["res_diff"]):::uptodate --> x7bd68e27376d8407(["scenario_Global<br>Global"]):::dispatched
+    xc488683e3df4e665(["ts_aug"]):::uptodate --> x7bd68e27376d8407(["scenario_Global<br>Global"]):::dispatched
     xa644072f7a1b7229>"castModel"]:::uptodate --> xee4f8d86dc7f5415(["mod_cast"]):::uptodate
     xe177f97af32c2a84(["mod"]):::uptodate --> xee4f8d86dc7f5415(["mod_cast"]):::uptodate
     x7b6a434a2a79ead8>"evalModel"]:::uptodate --> x0e4824291d40911d(["mod_eval"]):::uptodate
     xee4f8d86dc7f5415(["mod_cast"]):::uptodate --> x0e4824291d40911d(["mod_eval"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> x0e4824291d40911d(["mod_eval"]):::uptodate
-    xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::outdated --> x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated
-    xc488683e3df4e665(["ts_aug"]):::outdated --> x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated
+    xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::dispatched --> x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated
+    xc488683e3df4e665(["ts_aug"]):::uptodate --> x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated
     x2a04bef96d6f3589>"vizDotDiff"]:::uptodate --> x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated
-    x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated --> x0407d90eeb4b8bbf(["fig_scenario_Indonesia<br>Indonesia"]):::outdated
-    x7bd68e27376d8407(["scenario_Global<br>Global"]):::outdated --> xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated
-    xc488683e3df4e665(["ts_aug"]):::outdated --> xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated
+    x7bd68e27376d8407(["scenario_Global<br>Global"]):::dispatched --> xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated
+    xc488683e3df4e665(["ts_aug"]):::uptodate --> xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated
     x2a04bef96d6f3589>"vizDotDiff"]:::uptodate --> xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated
     x1f6d76ea8940cecf{{"raws"}}:::uptodate --> x6fba182254a20175(["file_tbl"]):::uptodate
     x41ba333bb4a8eac2>"getDiff"]:::uptodate --> x97481d93fc034ba1(["res_diff"]):::uptodate
@@ -127,41 +130,40 @@ graph LR
     x18b26034ab3a95e2>"readData"]:::uptodate --> x69167921da2c5a4c(["ts"]):::uptodate
     x6fba182254a20175(["file_tbl"]):::uptodate --> xb24e8ba9befc2f2c(["tbl"]):::uptodate
     x18b26034ab3a95e2>"readData"]:::uptodate --> xb24e8ba9befc2f2c(["tbl"]):::uptodate
-    x0e4824291d40911d(["mod_eval"]):::uptodate --> x35b4e9316d9a0feb(["best_fit"]):::dispatched
-    x1c4ab9118e3ea071>"selectModel"]:::uptodate --> x35b4e9316d9a0feb(["best_fit"]):::dispatched
-    x35b4e9316d9a0feb(["best_fit"]):::dispatched --> xb72891f20a5b8df1(["report"]):::outdated
+    x0e4824291d40911d(["mod_eval"]):::uptodate --> x35b4e9316d9a0feb(["best_fit"]):::uptodate
+    x1c4ab9118e3ea071>"selectModel"]:::uptodate --> x35b4e9316d9a0feb(["best_fit"]):::uptodate
+    x1f6d76ea8940cecf{{"raws"}}:::uptodate --> xb82194ad1d3356df(["file_ts"]):::uptodate
+    x35b4e9316d9a0feb(["best_fit"]):::uptodate --> xb72891f20a5b8df1(["report"]):::outdated
     x0e4824291d40911d(["mod_eval"]):::uptodate --> xb72891f20a5b8df1(["report"]):::outdated
     xc590316f7a9c8a5d(["plt_acf"]):::uptodate --> xb72891f20a5b8df1(["report"]):::outdated
-    x15da876e665e6188(["plt_dot"]):::uptodate --> xb72891f20a5b8df1(["report"]):::outdated
-    xa96ae55b1b18d8fc(["plt_dot_aug"]):::outdated --> xb72891f20a5b8df1(["report"]):::outdated
+    x15da876e665e6188(["plt_dot"]):::dispatched --> xb72891f20a5b8df1(["report"]):::outdated
+    xa96ae55b1b18d8fc(["plt_dot_aug"]):::dispatched --> xb72891f20a5b8df1(["report"]):::outdated
     x674283d12376b53b(["plt_pacf"]):::uptodate --> xb72891f20a5b8df1(["report"]):::outdated
     xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated --> xb72891f20a5b8df1(["report"]):::outdated
     x03559e684440f76b(["plt_scenario_Indonesia<br>Indonesia"]):::outdated --> xb72891f20a5b8df1(["report"]):::outdated
     x97481d93fc034ba1(["res_diff"]):::uptodate --> xb72891f20a5b8df1(["report"]):::outdated
-    xbdb43b025d9b1b25(["res_trend"]):::dispatched --> xb72891f20a5b8df1(["report"]):::outdated
-    x1f6d76ea8940cecf{{"raws"}}:::uptodate --> xb82194ad1d3356df(["file_ts"]):::uptodate
-    xd714b9d178785540(["plt_scenario_Global<br>Global"]):::outdated --> xf7834b6db66d1f53(["fig_scenario_Global<br>Global"]):::outdated
-    xe777d5278e8501a6>"checkTrend"]:::uptodate --> xbdb43b025d9b1b25(["res_trend"]):::dispatched
-    x69167921da2c5a4c(["ts"]):::uptodate --> xbdb43b025d9b1b25(["res_trend"]):::dispatched
+    xbdb43b025d9b1b25(["res_trend"]):::outdated --> xb72891f20a5b8df1(["report"]):::outdated
+    xe777d5278e8501a6>"checkTrend"]:::uptodate --> xbdb43b025d9b1b25(["res_trend"]):::outdated
+    x69167921da2c5a4c(["ts"]):::uptodate --> xbdb43b025d9b1b25(["res_trend"]):::outdated
     x69167921da2c5a4c(["ts"]):::uptodate --> xc590316f7a9c8a5d(["plt_acf"]):::uptodate
     xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate --> xc590316f7a9c8a5d(["plt_acf"]):::uptodate
-    x1a0b2ed0fd224eb0>"augmentModel"]:::uptodate --> xc488683e3df4e665(["ts_aug"]):::outdated
-    x03f2053ede238c51(["best_cast"]):::outdated --> xc488683e3df4e665(["ts_aug"]):::outdated
-    x310fe0d702765c29(["mod_its"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::outdated
-    x69167921da2c5a4c(["ts"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::outdated
+    x1a0b2ed0fd224eb0>"augmentModel"]:::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
+    x03f2053ede238c51(["best_cast"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
+    x310fe0d702765c29(["mod_its"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
+    x69167921da2c5a4c(["ts"]):::uptodate --> xc488683e3df4e665(["ts_aug"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> x674283d12376b53b(["plt_pacf"]):::uptodate
     xa4ed09271e4b7e0c>"vizAutocor"]:::uptodate --> x674283d12376b53b(["plt_pacf"]):::uptodate
-    x92dbc31cbd959c37>"mkScenario"]:::uptodate --> xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::outdated
-    x97481d93fc034ba1(["res_diff"]):::uptodate --> xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::outdated
-    xc488683e3df4e665(["ts_aug"]):::outdated --> xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::outdated
+    x92dbc31cbd959c37>"mkScenario"]:::uptodate --> xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::dispatched
+    x97481d93fc034ba1(["res_diff"]):::uptodate --> xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::dispatched
+    xc488683e3df4e665(["ts_aug"]):::uptodate --> xd1a2bfa4d111d922(["scenario_Indonesia<br>Indonesia"]):::dispatched
     xa644072f7a1b7229>"castModel"]:::uptodate --> xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate
     x310fe0d702765c29(["mod_its"]):::uptodate --> xd5d9f89b36ce2fd3(["mod_cast_its"]):::uptodate
     xacaa2b0b099a3bef>"compareModel"]:::uptodate --> xe177f97af32c2a84(["mod"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> xe177f97af32c2a84(["mod"]):::uptodate
-    x69167921da2c5a4c(["ts"]):::uptodate --> x15da876e665e6188(["plt_dot"]):::uptodate
-    xb8b267aae822a938>"vizDot"]:::uptodate --> x15da876e665e6188(["plt_dot"]):::uptodate
-    xc488683e3df4e665(["ts_aug"]):::outdated --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::outdated
-    x517170a0862823a9>"vizDotAug"]:::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::outdated
+    x69167921da2c5a4c(["ts"]):::uptodate --> x15da876e665e6188(["plt_dot"]):::dispatched
+    xb8b267aae822a938>"vizDot"]:::uptodate --> x15da876e665e6188(["plt_dot"]):::dispatched
+    xc488683e3df4e665(["ts_aug"]):::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::dispatched
+    x517170a0862823a9>"vizDotAug"]:::uptodate --> xa96ae55b1b18d8fc(["plt_dot_aug"]):::dispatched
     xd7e58f14e419de9c>"subsetData"]:::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
     xb24e8ba9befc2f2c(["tbl"]):::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
     x69167921da2c5a4c(["ts"]):::uptodate --> xace8ed3b55f17498(["sub_tbl"]):::uptodate
@@ -172,19 +174,19 @@ graph LR
     x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate --> x026e3308cd8be8b9{{"pkgs_load"}}:::uptodate
     x3eac3c5af5491b67>"lsData"]:::uptodate --> x3eac3c5af5491b67>"lsData"]:::uptodate
   end
-  classDef outdated stroke:#000000,color:#000000,fill:#78B7C5;
-  classDef dispatched stroke:#000000,color:#000000,fill:#DC863B;
   classDef uptodate stroke:#000000,color:#ffffff,fill:#354823;
+  classDef dispatched stroke:#000000,color:#000000,fill:#DC863B;
+  classDef outdated stroke:#000000,color:#000000,fill:#78B7C5;
   classDef none stroke:#000000,color:#000000,fill:#94a4ac;
   linkStyle 0 stroke-width:0px;
   linkStyle 1 stroke-width:0px;
   linkStyle 2 stroke-width:0px;
   linkStyle 3 stroke-width:0px;
   linkStyle 4 stroke-width:0px;
+  linkStyle 87 stroke-width:0px;
+  linkStyle 88 stroke-width:0px;
   linkStyle 89 stroke-width:0px;
   linkStyle 90 stroke-width:0px;
   linkStyle 91 stroke-width:0px;
   linkStyle 92 stroke-width:0px;
-  linkStyle 93 stroke-width:0px;
-  linkStyle 94 stroke-width:0px;
 ```
