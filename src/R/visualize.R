@@ -263,6 +263,7 @@ vizDotAug <- function(ts, y, grouped = TRUE, ...) {
       aes_label,
       data = tbl_model,
       alpha = 0.8,
+      size = 3,
       inherit.aes = FALSE,
       show.legend = FALSE
     ) +
