@@ -64,7 +64,7 @@ mkScenario <- function(ts_aug, res_diff, region = "Indonesia", ref_year = 2018) 
 
   ts_project <- ts_aug |>
     projectDiff(res_diff, region = region, ref_year = ref_year) |>
-    dplyr::mutate(.model = "Projected Difference")
+    dplyr::mutate(.model = "Counterfactual Scenario")
 
   tbl_scenario <- ts_project |>
     dplyr::full_join(sub_ts, by = c("Diagnosis", "Year", "Prevalence", ".model")) |>

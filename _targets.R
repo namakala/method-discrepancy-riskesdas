@@ -67,7 +67,8 @@ list(
     values = tibble::tibble("region" = c("Global", "Indonesia")),
     unlist = FALSE,
     tar_target(scenario, mkScenario(ts_aug, res_diff, region = region)),
-    tar_target(plt_scenario, vizDotDiff(ts_aug, scenario, scales = "free_y", nrow = 3))
+    tar_target(plt_scenario, vizDotDiff(ts_aug, scenario, scales = "free_y", nrow = 3)),
+    tar_target(fig_scenario, ggplot2::ggsave(sprintf("docs/fig/CS_%s.pdf", region), plot = plt_scenario, width = 14, height = 8))
   ),
 
   # Generate documentation
