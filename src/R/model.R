@@ -165,6 +165,7 @@ selectModel <- function(mod_eval) {
     dplyr::group_by(Region, Diagnosis) %>%
     dplyr::slice_min(rank) %>%
     dplyr::slice_head(n = 1) %>%
+    dplyr::mutate("Performance" = {(rank - 72) / (8 - 72)}) %>%
     subset(select = -data)
 
   return(best_fit)
